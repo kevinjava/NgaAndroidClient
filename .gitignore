@@ -1,4 +1,11 @@
 .gradle
+.classpath
+.project
+.settings
+.git/
+gen/
+*.class
+bin/
 /local.properties
 /.idea/workspace.xml
 .DS_Store
