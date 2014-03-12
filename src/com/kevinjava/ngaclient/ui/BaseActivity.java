@@ -1,8 +1,6 @@
 package com.kevinjava.ngaclient.ui;
 
 import android.app.Fragment;
-import android.app.FragmentTransaction;
-import android.app.ListFragment;
 import android.os.Bundle;
 import android.view.Menu;
 
@@ -27,23 +25,14 @@ public class BaseActivity extends SlidingFragmentActivity {
 
 		// set the Behind View
 		setBehindContentView(R.layout.menu_frame);
-		if (savedInstanceState == null) {
-			FragmentTransaction t = getFragmentManager().beginTransaction();
-			mFrag = new SlideMenuListFragment();
-			t.replace(R.id.menu_frame, mFrag);
-			t.commit();
-		} else {
-			mFrag = (ListFragment)this.getFragmentManager().findFragmentById(R.id.menu_frame);
-		}
-
-		// customize the SlidingMenu
 		SlidingMenu sm = getSlidingMenu();
 		sm.setShadowWidthRes(R.dimen.shadow_width);
 		sm.setShadowDrawable(R.drawable.shadow);
 		sm.setBehindOffsetRes(R.dimen.slidingmenu_offset);
 		sm.setFadeDegree(0.35f);
 		sm.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
-
+		sm.setMode(SlidingMenu.LEFT_RIGHT);
+		sm.setSecondaryMenu(R.layout.menu_frame_two);
 		this.getActionBar().setDisplayHomeAsUpEnabled(true);
 	}
 

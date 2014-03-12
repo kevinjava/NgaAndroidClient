@@ -10,43 +10,57 @@
         android:layout_height="wrap_content" android:orientation="vertical"   android:showDividers="middle"
         android:divider="@drawable/drawer_menu_divider"
         android:dividerPadding="0dp">
-
+		<TextView style="@style/titleTextView" android:layout_width="match_parent" android:text="@string/forum_title"/>
         <Button
             android:id="@+id/btn1"
             style="@style/drawerMenuButton"
             android:layout_width="match_parent"
-            android:text="魔兽世界综合讨论"  
+            android:text="@string/forum_total"  
             android:layout_weight="0"/>
 
         <Button
             android:id="@+id/btn2"
             style="@style/drawerMenuButton"
             android:layout_width="match_parent"
-            android:text="魔兽世界综合讨论"  android:layout_weight="0"/>
+            android:layout_weight="0"
+            android:text="@string/forum_history" />
 
         <Button
             android:id="@+id/btn3"
             style="@style/drawerMenuButton"
             android:layout_width="match_parent"
-            android:text="魔兽世界综合讨论" android:layout_weight="0"/>
+            android:text="@string/forum_job"  android:layout_weight="0"/>
 
         <Button
             android:id="@+id/btn4"
             style="@style/drawerMenuButton"
             android:layout_width="match_parent"
-            android:text="魔兽世界综合讨论" android:layout_weight="0"/>
+            android:layout_weight="0"
+            android:text="@string/forum_dialobe" />
 
         <Button
             android:id="@+id/btn5"
             style="@style/drawerMenuButton"
             android:layout_width="match_parent"
-            android:text="魔兽世界综合讨论" android:layout_weight="0"/>
+            android:text="@string/forum_adventure" android:layout_weight="0"/>
 
         <Button
             android:id="@+id/btn6"
             style="@style/drawerMenuButton"
             android:layout_width="match_parent"
-            android:text="魔兽世界综合讨论" android:layout_weight="0"/>
+            android:text="@string/forum_game" android:layout_weight="0"/>
+        
+         <Button
+            android:id="@+id/btn7"
+            style="@style/drawerMenuButton"
+            android:layout_width="match_parent"
+            android:text="@string/forum_other" android:layout_weight="0"/>
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/drawerMenuButton"
+            android:layout_width="match_parent"
+            android:text="@string/forum_net" android:layout_weight="0"/>
     </LinearLayout>
 
 </ScrollView>
