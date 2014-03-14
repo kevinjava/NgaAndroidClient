@@ -1,6 +1,12 @@
 package com.kevinjava.ngaclient.util;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import android.util.Log;
 
 import com.kevinjava.ngaclient.NgaApp;
 import com.kevinjava.ngaclient.model.GroupModel;
@@ -73,14 +79,39 @@ public class URLCreator {
 	 */
 
 	public static final String getForumUrl(int fid, int page, int tab ) {
-		final ArrayList<GroupModel> forums = NgaApp.groups;
-		GroupModel currentGroup = forums.get(fid);
-		return new StringBuffer(BASE_URL).append(THREAD).append(QUESTION_MARK)
-				.append(FID).append(currentGroup.forums.get(tab).fid).append(AND).append(PAGE).append(page)
+		String url = new StringBuffer(BASE_URL).append(THREAD).append(QUESTION_MARK)
+				.append(FID).append(getFid(fid, tab)).append(AND).append(PAGE).append(page)
 				.append(AND).append(LITE).append(AND).append(V2).toString();
+		Log.i("test", url);
+		return url;
+	}
+	
+	public static final int getFid(int index, int tabIndex){
+		final ArrayList<GroupModel> forums = NgaApp.groups;
+		GroupModel currentGroup = forums.get(index);
+		return currentGroup.forums.get(tabIndex).fid;
+	}
+	
+	public static final void parseString(){
+		String test = "[123][abc][456def]测试subject";
+		Pattern pattern = Pattern.compile("\\[[^\\]]*\\]");
+		Matcher matcher = pattern.matcher(test);
+		while (matcher.find()) {
+			System.out.println(matcher.start());
+			System.out.println(matcher.end());
+			System.out.println(matcher.group());
+		}
+	}
+	
+	public static String formatDate(String time){
+		SimpleDateFormat format = new SimpleDateFormat();
+		System.out.println(format.format(new Date(Long.parseLong(time))));
+		return null;
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(getForumUrl(7, 1, 0));
+//		System.out.println(getForumUrl(7, 1, 0));
+		parseString();
+		formatDate("1394680613");
 	}
 }

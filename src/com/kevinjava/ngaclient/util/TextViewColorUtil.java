@@ -1,19 +1,39 @@
 package com.kevinjava.ngaclient.util;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import android.annotation.SuppressLint;
+import android.graphics.Color;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.ForegroundColorSpan;
+
 public class TextViewColorUtil {
-/**
- * TextView textView = (TextView)findViewById(R.id.testview);  
-  
-String text = String.format(getResources().getString(R.string.baoxiang), 2,18,"银宝箱");  
-       int index[] = new int[3];  
-       index[0] = text.indexOf("2");  
-       index[1] = text.indexOf("18");  
-       index[2] = text.indexOf("银宝箱");  
-  
- SpannableStringBuilder style=new SpannableStringBuilder(text);     
-           style.setSpan(new ForegroundColorSpan(Color.RED),index[0],index[0]+1,Spannable.SPAN_EXCLUSIVE_INCLUSIVE);      
-           style.setSpan(new ForegroundColorSpan(Color.RED),index[1],index[1]+2,Spannable.SPAN_EXCLUSIVE_INCLUSIVE);      
-           style.setSpan(new BackgroundColorSpan(Color.RED),index[2],index[2]+3,Spannable.SPAN_EXCLUSIVE_INCLUSIVE);      
-           textView.setText(style);  
- */
+	private static Pattern pattern = Pattern.compile("\\[[^\\]]*\\]");
+	@SuppressLint("SimpleDateFormat")
+	private static SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm");
+
+	public static SpannableStringBuilder getForumBodyStyle(String text) {
+		SpannableStringBuilder style = new SpannableStringBuilder(text);
+		Matcher matcher = pattern.matcher(text);
+		while (matcher.find()) {
+			int start = matcher.start();
+			int end = matcher.end();
+			style.setSpan(new ForegroundColorSpan(Color.GRAY), start, end,
+					Spannable.SPAN_EXCLUSIVE_INCLUSIVE);
+		}
+		return style;
+	}
+	
+	public static String formatDate(String time){
+		long timeL = Long.parseLong(time);
+		if((new Date().getTime() - timeL)< 60000){
+			return "刚刚";
+		}
+		Date date = new Date(Long.parseLong(time));
+		return dateFormat.format(date);
+	}
 }

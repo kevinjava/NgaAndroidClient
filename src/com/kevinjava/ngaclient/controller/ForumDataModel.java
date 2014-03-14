@@ -18,23 +18,30 @@ import com.kevinjava.ngaclient.network.NetworkManager;
 public class ForumDataModel implements ForumDataModelIF {
 
 	private HashMap<Integer, ThreadData> forumDatas;
+	private HashMap<Integer, Integer> pageDatas;
 	private HashMap<NetRequestType, ForumObserver> observers;
 	private Object sync = new Object();
 
 	public ForumDataModel() {
 		forumDatas = new HashMap<Integer, ThreadData>();
 		observers = new HashMap<NetRequestType, ForumObserver>();
+		pageDatas = new HashMap<Integer, Integer>();
 	}
 
 	@Override
-	public void ferchData(NetRequestType type, int forumIndex, int tabIndex, String url) {
+	public void ferchData(NetRequestType type, int forumIndex, int tabIndex,
+			int page, String url) {
 		final ArrayList<GroupModel> forums = NgaApp.groups;
 		GroupModel currentGroup = forums.get(forumIndex);
 		int fid = currentGroup.forums.get(tabIndex).fid;
+		Integer lastPage = pageDatas.get(fid);
+		if(lastPage == null || page != 1){
+			pageDatas.put(fid, page);
+		}
 		NetworkManager.getInstance().asyncGetRequest(
 				url,
 				new AsyncForumHttpResponseHandler(new HttpRequestBean(type,
-						fid, url), this));
+						fid, url, page == 1), this));
 	}
 
 	@Override
@@ -45,17 +52,19 @@ public class ForumDataModel implements ForumDataModelIF {
 			return;
 		}
 		synchronized (sync) {
-			if (httpBean.getType() == NetRequestType.RefrushForumData) {
-				forumDatas.put(httpBean.getFid(), bean);
-			} else {
-				ThreadData data = forumDatas.get(httpBean.getFid());
-				if (data != null) {
+			ThreadData data = forumDatas.get(httpBean.getFid());
+			if (data != null) {
+				if (httpBean.getType() == NetRequestType.RefrushForumData) {
+					Log.e("test", "refrush merge the list");
+					bean.mergeList(data);
+					forumDatas.put(httpBean.getFid(), bean);
+				} else {
 					Log.e("test", "merge the list");
 					data.mergeList(bean);
-				} else {
-					Log.e("test", "put to the map");
-					forumDatas.put(httpBean.getFid(), bean);
 				}
+			} else {
+				Log.e("test", "put to the map");
+				forumDatas.put(httpBean.getFid(), bean);
 			}
 			notifyChange(httpBean);
 		}
@@ -85,4 +94,14 @@ public class ForumDataModel implements ForumDataModelIF {
 	public ThreadData getPageData(NetRequestType type, int fid) {
 		return forumDatas.get(fid);
 	}
+
+	@Override
+	public int getPageInfo(int fid) {
+		Integer page = pageDatas.get(fid);
+		if(page == null){
+			page = 1;
+		}
+		return page;
+	}
+	
 }

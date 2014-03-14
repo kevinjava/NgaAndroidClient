@@ -1,6 +1,9 @@
 package com.kevinjava.ngaclient.ui;
 
+import java.util.HashMap;
+
 import android.content.Context;
+import android.text.SpannableStringBuilder;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -10,15 +13,22 @@ import android.widget.TextView;
 import com.kevinjava.ngaclient.R;
 import com.kevinjava.ngaclient.model.ForumDataBean;
 import com.kevinjava.ngaclient.model.ThreadData;
+import com.kevinjava.ngaclient.util.TextViewColorUtil;
 
 public class MainForumAdapter extends BaseAdapter {
-	
+
 	ThreadData data;
 	Context mContext;
-	
+
+	HashMap<String, SpannableStringBuilder> subjectSpannables = new HashMap<String, SpannableStringBuilder>();
+
 	public MainForumAdapter(ThreadData data, Context context) {
 		this.data = data;
 		this.mContext = context;
+	}
+
+	public void setThreadData(ThreadData data){
+		this.data = data;
 	}
 	
 	@Override
@@ -38,27 +48,28 @@ public class MainForumAdapter extends BaseAdapter {
 
 	@Override
 	public View getView(int index, View currentView, ViewGroup arg2) {
-	    MainItem item;
-		if(currentView == null){
+		MainItem item;
+		if (currentView == null) {
 			currentView = View.inflate(mContext, R.layout.main_list_item, null);
 			item = new MainItem(currentView);
 			currentView.setTag(item);
-		}else {
+		} else {
 			item = (MainItem) currentView.getTag();
 		}
-		
+
 		item.setData(getItem(index));
-		
+
 		return currentView;
 	}
-	
-	class MainItem{
+
+	class MainItem {
 		ImageView userIcon;
 		TextView userName;
 		TextView subject;
 		TextView publishTime;
 		TextView replyNum;
 		TextView replyName;
+
 		public MainItem(View view) {
 			userIcon = (ImageView) view.findViewById(R.id.user_icon);
 			userName = (TextView) view.findViewById(R.id.user_name);
@@ -67,13 +78,20 @@ public class MainForumAdapter extends BaseAdapter {
 			replyName = (TextView) view.findViewById(R.id.last_reply_name);
 			subject = (TextView) view.findViewById(R.id.forum_subject);
 		}
-		
-		public void setData(ForumDataBean bean){
+
+		public void setData(ForumDataBean bean) {
 			userName.setText(bean.getAuthor());
-			publishTime.setText(bean.getPostdate());
+			publishTime.setText(TextViewColorUtil.formatDate(bean.getLastpost()));
 			replyNum.setText(bean.getReplies());
 			replyName.setText(bean.getLastposter());
-			subject.setText(bean.getSubject());
+			SpannableStringBuilder builder = subjectSpannables.get(bean
+					.getTid());
+			if (builder == null) {
+				builder = TextViewColorUtil
+						.getForumBodyStyle(bean.getSubject());
+				subjectSpannables.put(bean.getTid(), builder);
+			}
+			subject.setText(builder);
 		}
 	}
 

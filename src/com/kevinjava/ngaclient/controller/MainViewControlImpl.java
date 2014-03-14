@@ -18,14 +18,20 @@ import com.kevinjava.ngaclient.model.GroupModel;
 import com.kevinjava.ngaclient.model.HttpRequestBean;
 import com.kevinjava.ngaclient.model.ThreadData;
 import com.kevinjava.ngaclient.ui.BaseActivity;
+import com.kevinjava.ngaclient.ui.MainForumFragement;
+import com.kevinjava.ngaclient.ui.NgaBaseFragment;
+import com.kevinjava.ngaclient.util.URLCreator;
 
 public class MainViewControlImpl implements MainViewControlIF,
 		OnNavigationListener {
 
 	BaseActivity baseActivity;
 	FragmentFactoryIF fragmentFactory;
-	int index;
+	int index = -1;
+	int page = 1;
+	int tabIndex = -1;
 	String[] tabStrs;
+	NgaBaseFragment mainForumFragement;
 
 	public MainViewControlImpl(BaseActivity act,
 			FragmentFactoryIF fragmentFactory) {
@@ -51,9 +57,14 @@ public class MainViewControlImpl implements MainViewControlIF,
 
 	@Override
 	public void switchForum(int index, int tabIndex) {
+		if (this.index == index) {
+			return;
+		}
 		final ArrayList<GroupModel> forums = NgaApp.groups;
 		this.index = index;
+		this.tabIndex = -1;
 		GroupModel currentGroup = forums.get(index);
+		baseActivity.setTitle(currentGroup.name);
 		tabStrs = new String[currentGroup.forums.size()];
 		for (int i = 0; i < currentGroup.forums.size(); i++) {
 			tabStrs[i] = currentGroup.forums.get(i).name;
@@ -70,17 +81,27 @@ public class MainViewControlImpl implements MainViewControlIF,
 	}
 
 	@Override
-	public void update(HttpRequestBean bean, ForumDataModelIF dataModel) {
+	public void update(final HttpRequestBean bean, ForumDataModelIF dataModel) {
 		final ThreadData data = dataModel.getPageData(bean.getType(),
 				bean.getFid());
 		new Handler(Looper.getMainLooper()).post(new Runnable() {
 			public void run() {
 				if (!baseActivity.isFinishing()) {
-					FragmentTransaction t = baseActivity.getFragmentManager()
-							.beginTransaction();
-					t.replace(R.id.main_frame,
-							fragmentFactory.getMainForumFragment(data));
-					t.commit();
+					if (mainForumFragement == null) {
+						FragmentTransaction t = baseActivity
+								.getFragmentManager().beginTransaction();
+						mainForumFragement = fragmentFactory
+								.getMainForumFragment(data);
+						((MainForumFragement) mainForumFragement).setIndex(
+								index, tabIndex, page);
+						t.replace(R.id.main_frame, mainForumFragement);
+						t.commit();
+					} else {
+						((MainForumFragement) mainForumFragement).setIndex(
+								index, tabIndex, page);
+						((MainForumFragement) mainForumFragement)
+								.setDataChange(data, bean);
+					}
 				}
 			}
 		});
@@ -90,6 +111,31 @@ public class MainViewControlImpl implements MainViewControlIF,
 	public boolean onNavigationItemSelected(int itemPosition, long itemId) {
 		fragmentFactory.getController().onTabChange(index, itemPosition);
 		return false;
+	}
+
+	@Override
+	public void onRefreshPage(int index, int tabIndex, int page) {
+		this.index = index;
+//		this.page = page;
+		this.tabIndex = tabIndex;
+	}
+
+	@Override
+	public void onloadMore(int index, int tabIndex, int page) {
+		this.index = index;
+		this.page = page;
+		this.tabIndex = tabIndex;
+	}
+
+	@Override
+	public boolean onTabChange(int index, int tabIndex,ForumDataModelIF forumDataModelIF) {
+		boolean isChange = !(this.tabIndex == tabIndex && this.index == index);
+		this.tabIndex = tabIndex;
+		this.index = index;
+		if(isChange){
+			page = forumDataModelIF.getPageInfo(URLCreator.getFid(index, tabIndex));
+		}
+		return isChange;
 	}
 
 }

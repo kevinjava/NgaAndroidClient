@@ -34,14 +34,13 @@
 
     <TextView
         android:id="@+id/forum_subject"
-        style="@style/subjectTextView"
+        style="@style/bodyTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@id/user_name"
         android:layout_alignRight="@id/pushlish_time"
         android:layout_below="@id/user_name"
-        android:layout_marginTop="5dp"
-        android:textSize="14sp" />
+        android:layout_marginTop="5dp" />
 
     <ImageView
         android:id="@+id/reply_icon"
@@ -61,7 +60,6 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/reply_icon"
         android:layout_centerInParent="true"
-        android:layout_marginLeft="5dp"
         android:layout_toRightOf="@id/reply_icon" />
 
     <TextView

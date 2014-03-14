@@ -101,10 +101,24 @@ public class PullAndLoadListView extends PullToRefreshListView {
 			}
 
 			boolean loadMore = firstVisibleItem + visibleItemCount >= totalItemCount;
+			
+			if(!loadMore){
+				if(animationDrawable.isRunning()){
+					Log.e(TAG, "stop the animation");
+					animationDrawable.stop();
+				}
+				return;
+			}
 
+			if(mIsLoadingMore && !animationDrawable.isRunning()){
+				Log.e(TAG, "show the loading more -- mIsLoadingMore");
+				animationDrawable.start();
+			}
+			
 			// if (!mIsLoadingMore && loadMore && mRefreshState != REFRESHING
 			if (!mIsLoadingMore && loadMore
 					&& mCurrentScrollState != SCROLL_STATE_IDLE) {
+				Log.e(TAG, "show the loading more");
 				mFooterView.setVisibility(View.VISIBLE);
 				mProgressBarLoadMore.setVisibility(View.VISIBLE);
 				// mLabLoadMore.setVisibility(View.VISIBLE);
@@ -128,6 +142,7 @@ public class PullAndLoadListView extends PullToRefreshListView {
 	 * Notify the loading more operation has finished
 	 */
 	public void onLoadMoreComplete() {
+		Log.d(TAG, "onLoadMore complete");
 		mIsLoadingMore = false;
 	}
 

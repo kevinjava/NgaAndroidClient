@@ -6,13 +6,23 @@ public class HttpRequestBean implements Comparable<HttpRequestBean> {
 	private NetRequestType type;
 	private int fid;
 	private String url;
-
-	public HttpRequestBean(NetRequestType type, int fid, String url) {
+	boolean isSelectFirst;
+	
+	public HttpRequestBean(NetRequestType type, int fid, String url, boolean isSelectFirst) {
 		this.type = type;
 		this.fid = fid;
 		this.url = url;
+		this.isSelectFirst = isSelectFirst;
+	}
+	
+	public boolean isSelectFirst() {
+		return isSelectFirst;
 	}
 
+	public void setSelectFirst(boolean isSelectFirst) {
+		this.isSelectFirst = isSelectFirst;
+	}
+	
 	public NetRequestType getType() {
 		return type;
 	}
@@ -36,7 +46,7 @@ public class HttpRequestBean implements Comparable<HttpRequestBean> {
 	public void setUrl(String url) {
 		this.url = url;
 	}
-
+	
 	@Override
 	public int compareTo(HttpRequestBean another) {
 		if (another.fid == fid && another.type.equals(type)

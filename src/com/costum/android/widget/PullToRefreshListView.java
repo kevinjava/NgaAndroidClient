@@ -129,18 +129,19 @@ public class PullToRefreshListView extends ListView implements OnScrollListener 
 
 		measureView(mRefreshView);
 		mRefreshViewHeight = mRefreshView.getMeasuredHeight();
-//		mRefreshViewHeight = dip2px(context, 50);
-		
+		// mRefreshViewHeight = dip2px(context, 50);
+
 	}
-	
-	public int dip2px(Context context, float dipValue){ 
-        final float scale = context.getResources().getDisplayMetrics().density; 
-        return (int)(dipValue * scale + 0.5f); 
-    } 
+
+	public int dip2px(Context context, float dipValue) {
+		final float scale = context.getResources().getDisplayMetrics().density;
+		return (int) (dipValue * scale + 0.5f);
+	}
 
 	@Override
 	protected void onAttachedToWindow() {
-		//have to ask super to attach to window, otherwise it won't scroll in jelly bean.
+		// have to ask super to attach to window, otherwise it won't scroll in
+		// jelly bean.
 		super.onAttachedToWindow();
 		setSelection(1);
 	}
@@ -228,7 +229,6 @@ public class PullToRefreshListView extends ListView implements OnScrollListener 
 	private void applyHeaderPadding(MotionEvent ev) {
 		// getHistorySize has been available since API 1
 		int pointerCount = ev.getHistorySize();
-		Log.i(TAG, "event count" + pointerCount);
 		for (int p = 0; p < pointerCount; p++) {
 			if (mRefreshState == RELEASE_TO_REFRESH) {
 				if (isVerticalFadingEdgeEnabled()) {
@@ -239,44 +239,43 @@ public class PullToRefreshListView extends ListView implements OnScrollListener 
 
 				// Calculate the padding to apply, we divide by 1.7 to
 				// simulate a more resistant effect during pull.
-				int topPadding = (int) (((historicalY - mLastMotionY) - mRefreshViewHeight)/ 1.7);
-//				int currentpadding = mRefreshView.getPaddingTop();
-//				currentpadding = topPadding>=0 ? ++currentpadding:--currentpadding;
+				int topPadding = (int) (((historicalY - mLastMotionY) - mRefreshViewHeight) / 1.7);
+				// int currentpadding = mRefreshView.getPaddingTop();
+				// currentpadding = topPadding>=0 ?
+				// ++currentpadding:--currentpadding;
 				int offset = topPadding - lastPadding;
-				if(topPadding > lastPadding){
-					if(lastPadding == 0){
+				if (topPadding > lastPadding) {
+					if (lastPadding == 0) {
 						offset = 2;
-					}else {
-						offset = offset >=3 ? 3: offset;
+					} else {
+						offset = offset >= 3 ? 3 : offset;
 					}
 					lastPadding = topPadding;
-					topPadding = mRefreshView.getPaddingTop()+ offset;
-				}else if(topPadding < lastPadding){
-					if(lastPadding == 0){
+					topPadding = mRefreshView.getPaddingTop() + offset;
+				} else if (topPadding < lastPadding) {
+					if (lastPadding == 0) {
 						offset = -2;
-					}else {
-						offset = offset <=-3 ? -3: Math.abs(offset);
+					} else {
+						offset = offset <= -3 ? -3 : Math.abs(offset);
 					}
 					lastPadding = topPadding;
-					topPadding = mRefreshView.getPaddingTop()+ offset;
-				}else{
+					topPadding = mRefreshView.getPaddingTop() + offset;
+				} else {
 					topPadding = mRefreshView.getPaddingTop();
 					lastPadding = topPadding;
 				}
-					
-				
-				Log.e("padding", topPadding + "=====");
+
 				mRefreshView.setPadding(mRefreshView.getPaddingLeft(),
 						topPadding, mRefreshView.getPaddingRight(),
 						mRefreshView.getPaddingBottom());
-			}else {
-//				mLastMotionY = (int) ev.getY();
-				Log.e("abc", mRefreshView.getPaddingTop() +"+++++");
+			} else {
+				// mLastMotionY = (int) ev.getY();
+				// Log.e("abc", mRefreshView.getPaddingTop() +"+++++");
 			}
-			
+
 		}
 	}
-	
+
 	boolean isFirst = true;
 	int lastPadding = 0;
 
@@ -284,9 +283,19 @@ public class PullToRefreshListView extends ListView implements OnScrollListener 
 	 * Sets the header padding back to original size.
 	 */
 	private void resetHeaderPadding() {
-		mRefreshView.setPadding(mRefreshView.getPaddingLeft(),
-				mRefreshOriginalTopPadding, mRefreshView.getPaddingRight(),
-				mRefreshView.getPaddingBottom());
+//		int lastPadding = 50;
+//		int offset = (int) (lastPadding - mRefreshOriginalTopPadding / 50);
+//		Log.i("test", "offset is " + offset + "lastPadding" + lastPadding +"mRefreshOriginalTopPadding:" + mRefreshOriginalTopPadding);
+//		for (int i = 1; i <= 50; i++) {
+//			int currentPadding = lastPadding
+//					- (offset * i);
+//			if(i == 50){
+//				currentPadding = mRefreshOriginalTopPadding;
+//			}
+			mRefreshView.setPadding(mRefreshView.getPaddingLeft(),mRefreshOriginalTopPadding , mRefreshView.getPaddingRight(),
+					mRefreshView.getPaddingBottom());
+//		}
+
 	}
 
 	/**
@@ -294,7 +303,6 @@ public class PullToRefreshListView extends ListView implements OnScrollListener 
 	 */
 	private void resetHeader() {
 		if (mRefreshState != TAP_TO_REFRESH) {
-			Log.e(TAG, "resetHeader");
 			mRefreshState = TAP_TO_REFRESH;
 
 			resetHeaderPadding();
@@ -302,8 +310,7 @@ public class PullToRefreshListView extends ListView implements OnScrollListener 
 			// Set refresh view text to the pull label
 			mRefreshViewText.setText(R.string.pull_to_refresh_tap_label);
 			// Replace refresh drawable with arrow drawable
-			mRefreshViewImage
-					.setImageResource(R.drawable.ic_pulltorefresh_arrow);
+			mRefreshViewImage.setImageResource(R.drawable.pullheader_indicator);
 			// Clear the full rotation animation
 			mRefreshViewImage.clearAnimation();
 			// Hide progress bar and arrow.
@@ -340,8 +347,8 @@ public class PullToRefreshListView extends ListView implements OnScrollListener 
 				&& mRefreshState != REFRESHING) {
 			if (firstVisibleItem == 0) {
 				mRefreshViewImage.setVisibility(View.VISIBLE);
-				if ((mRefreshView.getBottom() >= mRefreshViewHeight + 1 || mRefreshView.getTop() >= 0) && mRefreshState != RELEASE_TO_REFRESH) {
-					Log.i(TAG, "change to RELEASE_TO_REFRESH");
+				if ((mRefreshView.getBottom() >= mRefreshViewHeight + 1 || mRefreshView
+						.getTop() >= 0) && mRefreshState != RELEASE_TO_REFRESH) {
 					mRefreshViewText
 							.setText(R.string.pull_to_refresh_release_label);
 					mRefreshViewImage.clearAnimation();
@@ -349,7 +356,6 @@ public class PullToRefreshListView extends ListView implements OnScrollListener 
 					mRefreshState = RELEASE_TO_REFRESH;
 				} else if (mRefreshView.getBottom() < mRefreshViewHeight + 1
 						&& mRefreshState != PULL_TO_REFRESH) {
-					Log.i(TAG, "change to PULL_TO_REFRESH");
 					mRefreshViewText
 							.setText(R.string.pull_to_refresh_pull_label);
 					if (mRefreshState != TAP_TO_REFRESH) {
@@ -437,7 +443,7 @@ public class PullToRefreshListView extends ListView implements OnScrollListener 
 			setSelection(1);
 		}
 	}
-
+	
 	/**
 	 * Invoked when the refresh view is clicked on. This is mainly used when
 	 * there's only a few items in the list and it's not possible to drag the

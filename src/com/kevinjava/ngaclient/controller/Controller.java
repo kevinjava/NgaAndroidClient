@@ -24,6 +24,8 @@ public class Controller implements ViewControllIF {
 		mainViewControlIF = new MainViewControlImpl(act, fragmentFactory);
 		forumDataModel = new ForumDataModel();
 		forumDataModel.add(NetRequestType.ForumData, mainViewControlIF);
+		forumDataModel.add(NetRequestType.RefrushForumData, mainViewControlIF);
+		forumDataModel.add(NetRequestType.OnLoadMore, mainViewControlIF);
 	}
 
 	public void createView(Bundle savedInstanceState) {
@@ -35,13 +37,27 @@ public class Controller implements ViewControllIF {
 	@Override
 	public void onForumChange(int index, int tabIndex) {
 		mainViewControlIF.switchForum(index, tabIndex);
-		// forumDataModel.ferchData(NetRequestType.ForumData, index,
-		// URLCreator.getForumUrl(index, 1, tabIndex));
 	}
 
 	@Override
 	public void onTabChange(int index, int tabIndex) {
-		forumDataModel.ferchData(NetRequestType.ForumData, index, tabIndex,
-				URLCreator.getForumUrl(index, 1, tabIndex));
+		boolean isChange = mainViewControlIF.onTabChange(index, tabIndex, forumDataModel);
+		if(isChange){
+			forumDataModel.ferchData(NetRequestType.ForumData, index, tabIndex, 1,
+					URLCreator.getForumUrl(index, 1, tabIndex));
+		}
 	}
+
+	@Override
+	public void onRefreshPage(int index, int tabIndex, int page) {
+		mainViewControlIF.onRefreshPage(index, tabIndex, page);
+		forumDataModel.ferchData(NetRequestType.RefrushForumData, index, tabIndex, page, URLCreator.getForumUrl(index, page, tabIndex));
+	}
+
+	@Override
+	public void onloadMore(int index, int tabIndex, int page) {
+		mainViewControlIF.onloadMore(index, tabIndex, page);
+		forumDataModel.ferchData(NetRequestType.OnLoadMore, index, tabIndex, page, URLCreator.getForumUrl(index, page, tabIndex));
+	}
+
 }

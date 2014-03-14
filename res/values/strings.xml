@@ -20,5 +20,10 @@
     <string name="pull_to_refresh_release_label">松开刷新</string>
     <string name="pull_to_refresh_refreshing_label">正在加载</string>
     <string name="pull_to_refresh_tap_label">Tap to refresh...</string>
+
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label">上拉加载更多…</string>
+    <string name="pull_to_refresh_from_bottom_release_label">松手加载更多…</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
 	
 </resources>
