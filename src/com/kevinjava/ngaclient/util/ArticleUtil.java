@@ -40,6 +40,9 @@ public class ArticleUtil {
 	}
 
 	public static ThreadData parseJsonThreadPage(String js) {
+		if(js == null){
+			return null;
+		}
 		js = js.replaceAll("window.script_muti_get_var_store=", "");
 		JSONObject o = null;
 		try {

@@ -31,6 +31,10 @@ public class MainForumAdapter extends BaseAdapter {
 		this.data = data;
 	}
 	
+	public ThreadData getThreadData(){
+		return this.data;
+	}
+	
 	@Override
 	public int getCount() {
 		return data.getRowNum();

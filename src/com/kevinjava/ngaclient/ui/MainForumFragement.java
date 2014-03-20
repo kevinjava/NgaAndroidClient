@@ -1,28 +1,34 @@
 package com.kevinjava.ngaclient.ui;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import me.maxwin.view.XListView;
+import me.maxwin.view.XListView.IXListViewListener;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.costum.android.widget.PullAndLoadListView;
-import com.costum.android.widget.PullAndLoadListView.OnLoadMoreListener;
-import com.costum.android.widget.PullToRefreshListView.OnRefreshListener;
 import com.kevinjava.ngaclient.R;
+import com.kevinjava.ngaclient.constant.ToastType;
 import com.kevinjava.ngaclient.controller.NetRequestType;
+import com.kevinjava.ngaclient.model.ForumDataBean;
 import com.kevinjava.ngaclient.model.HttpRequestBean;
 import com.kevinjava.ngaclient.model.ThreadData;
 
-public class MainForumFragement extends NgaBaseFragment {
+public class MainForumFragement extends NgaBaseFragment implements
+		IXListViewListener {
 
-	PullAndLoadListView listView;
+	XListView listView;
 	ThreadData data;
 	int index;
 	int tabIndex;
 	int page;
 	MainForumAdapter adapter;
+	AnimationTextView toastView;
 
-	public MainForumFragement setThreadData(ThreadData data){
+	public MainForumFragement setThreadData(ThreadData data) {
 		this.data = data;
 		return this;
 	}
@@ -36,119 +42,101 @@ public class MainForumFragement extends NgaBaseFragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.pull_and_load, null);
-		listView = (PullAndLoadListView) view.findViewById(android.R.id.list);
+		toastView = (AnimationTextView) view.findViewById(R.id.toastView);
+		listView = (XListView) view.findViewById(R.id.xListView);
+		listView.setPullLoadEnable(true);
+		listView.setXListViewListener(this);
 		return view;
+	}
+
+	@Override
+	public void onRefresh() {
+		page = 1;
+		controller.onRefreshPage(index, tabIndex, page);
+	}
+
+	@Override
+	public void onLoadMore() {
+		controller.onloadMore(index, tabIndex, ++page);
 	}
 
 	@Override
 	public void onViewCreated(View view, Bundle savedInstanceState) {
 		adapter = new MainForumAdapter(data, getActivity());
 		listView.setAdapter(adapter);
-		// Set a listener to be invoked when the list should be refreshed.
-		listView.setOnRefreshListener(new OnRefreshListener() {
+	}
 
-			public void onRefresh() {
-				page = 1;
-				controller.onRefreshPage(index, tabIndex, page);
-			}
-		});
-
-		// set a listener to be invoked when the list reaches the end
-		listView.setOnLoadMoreListener(new OnLoadMoreListener() {
-
-			public void onLoadMore() {
-				controller.onloadMore(index, tabIndex, ++page);
-			}
-		});
-		
-		// Set a listener to be invoked when the list should be refreshed.
-		/*listView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener<ListView>() {
-					@Override
-					public void onRefresh(PullToRefreshBase<ListView> refreshView) {
-						String label = DateUtils.formatDateTime(getActivity(), System.currentTimeMillis(),
-								DateUtils.FORMAT_SHOW_TIME | DateUtils.FORMAT_SHOW_DATE | DateUtils.FORMAT_ABBREV_ALL);
-
-						// Update the LastUpdatedLabel
-						refreshView.getLoadingLayoutProxy().setLastUpdatedLabel(label);
-
-						// Do work to refresh the list here.
-						new GetDataTask().execute();
-					}
-				});
-
-				// Add an end-of-list listener
-		listView.setOnLastItemVisibleListener(new OnLastItemVisibleListener() {
-
-					@Override
-					public void onLastItemVisible() {
-						Toast.makeText(getActivity(), "End of List!", Toast.LENGTH_SHORT).show();
-					}
-				});
-
-				ListView actualListView = listView.getRefreshableView();
-
-				// Need to use the Actual ListView when registering for Context Menu
-				registerForContextMenu(actualListView);
-
-
-				*//**
-				 * Add Sound Event Listener
-				 *//*
-				SoundPullEventListener<ListView> soundListener = new SoundPullEventListener<ListView>(getActivity());
-				soundListener.addSoundEvent(State.PULL_TO_REFRESH, R.raw.psst2);
-				soundListener.addSoundEvent(State.RESET, R.raw.pop);
-				soundListener.addSoundEvent(State.REFRESHING, R.raw.psst1);
-				listView.setOnPullEventListener(soundListener);
-
-				// You can also just use setListAdapter(mAdapter) or
-				// mPullRefreshListView.setAdapter(mAdapter)
-				adapter = new MainForumAdapter(data, getActivity());
-				listView.setAdapter(adapter);
-				
-			}
-	
-	
-
-			private class GetDataTask extends AsyncTask<Void, Void, String[]> {
-
-				@Override
-				protected String[] doInBackground(Void... params) {
-					// Simulates a background job.
-					try {
-						Thread.sleep(4000);
-					} catch (InterruptedException e) {
-					}
-					return new String[]{"1","2"};
-				}
-
-				@Override
-				protected void onPostExecute(String[] result) {
-
-					// Call onRefreshComplete when the list has been refreshed.
-					listView.onRefreshComplete();
-
-					super.onPostExecute(result);
-				} */
-			}
-			
-			
-	public void setIndex(int index, int tabIndex, int page){
+	public void setIndex(int index, int tabIndex, int page) {
 		this.index = index;
 		this.tabIndex = tabIndex;
 		this.page = page;
 	}
-	
-	public void setDataChange(ThreadData data, HttpRequestBean bean){
-		adapter.setThreadData(data);
-		adapter.notifyDataSetChanged();
-		if(bean.isSelectFirst()){
+
+	public synchronized void setDataChange(ThreadData data, HttpRequestBean bean) {
+		listView.stopRefresh();
+		if (bean.getType() == NetRequestType.RefrushForumData) {
+			List<ForumDataBean> aList = new ArrayList<ForumDataBean>();
+			aList.addAll(adapter.getThreadData().getRowList());
+			aList.retainAll(data.getRowList());
+			int count = data.getRowNum() - aList.size();
+			aList.clear();
+			adapter = new MainForumAdapter(data, getActivity());
+			listView.setAdapter(adapter);
+			notifyToast(ToastType.Success, count);
+			// listView.setRefreshTime("刚刚");
+		} else {
+			adapter.setThreadData(data);
+			adapter.notifyDataSetChanged();
+			if ((bean.getType() == NetRequestType.OnLoadMore)) {
+				listView.stopLoadMore();
+			}
+			// mListView.setRefreshTime("刚刚");
+		}
+		if (bean.isSelectFirst()
+				&& bean.getType() != NetRequestType.RefrushForumData) {
 			listView.setSelection(1);
 		}
-		if(bean.getType() == NetRequestType.RefrushForumData){
-			listView.onRefreshComplete();
-		}else if(bean.getType() == NetRequestType.OnLoadMore){
-			listView.onLoadMoreComplete();
-		}
-			
+
 	}
+
+	public void setRefrush() {
+		listView.setRefrush();
+	}
+
+	public void enableFootView() {
+		listView.setPullLoadEnable(true);
+	}
+
+	public void notifyToast(ToastType type) {
+		if (type == ToastType.Success) {
+
+		} else if (type == ToastType.NotLogin) {
+
+		} else if (type == ToastType.NetworkError) {
+
+		}
+	}
+
+	public void notifyToast(final ToastType type, final int count) {
+		toastView.setVisibility(View.VISIBLE);
+		toastView.resetTextView();
+		String showTxt = "";
+		if(count > 0 ){
+			showTxt = "新加载" + count + "条主题";
+		}else {
+			showTxt = "没有新主题";
+		}
+		toastView.setText(showTxt);
+		toastView.postDelayed(new Runnable() {
+
+			@Override
+			public void run() {
+				if (type == ToastType.Success) {
+					toastView.startScroll();
+				}
+			}
+		}, 800);
+
+	}
+
 }

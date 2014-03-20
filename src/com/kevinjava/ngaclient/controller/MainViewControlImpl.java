@@ -13,6 +13,7 @@ import android.widget.ArrayAdapter;
 
 import com.kevinjava.ngaclient.NgaApp;
 import com.kevinjava.ngaclient.R;
+import com.kevinjava.ngaclient.constant.ToastType;
 import com.kevinjava.ngaclient.factory.FragmentFactoryIF;
 import com.kevinjava.ngaclient.model.GroupModel;
 import com.kevinjava.ngaclient.model.HttpRequestBean;
@@ -20,7 +21,6 @@ import com.kevinjava.ngaclient.model.ThreadData;
 import com.kevinjava.ngaclient.ui.BaseActivity;
 import com.kevinjava.ngaclient.ui.MainForumFragement;
 import com.kevinjava.ngaclient.ui.NgaBaseFragment;
-import com.kevinjava.ngaclient.util.URLCreator;
 
 public class MainViewControlImpl implements MainViewControlIF,
 		OnNavigationListener {
@@ -52,11 +52,18 @@ public class MainViewControlImpl implements MainViewControlIF,
 		actionBar.setDisplayShowHomeEnabled(false);
 		actionBar.setDisplayShowTitleEnabled(true);
 		actionBar.setBackgroundDrawable(baseActivity.getResources()
-				.getDrawable(R.drawable.action_bar_bg));
+				.getDrawable(R.color.abs__holo_blue_light));
+		FragmentTransaction t = baseActivity.getFragmentManager()
+				.beginTransaction();
+		mainForumFragement = fragmentFactory
+				.getMainForumFragment(new ThreadData());
+		t.replace(R.id.main_frame, mainForumFragement);
+		t.commit();
 	}
 
 	@Override
-	public void switchForum(int index, int tabIndex) {
+	public void switchForum(int index, int tabIndex,
+			ForumDataModelIF forumDataModelIF) {
 		if (this.index == index) {
 			return;
 		}
@@ -97,6 +104,8 @@ public class MainViewControlImpl implements MainViewControlIF,
 						t.replace(R.id.main_frame, mainForumFragement);
 						t.commit();
 					} else {
+						((MainForumFragement) mainForumFragement)
+								.enableFootView();
 						((MainForumFragement) mainForumFragement).setIndex(
 								index, tabIndex, page);
 						((MainForumFragement) mainForumFragement)
@@ -116,7 +125,7 @@ public class MainViewControlImpl implements MainViewControlIF,
 	@Override
 	public void onRefreshPage(int index, int tabIndex, int page) {
 		this.index = index;
-//		this.page = page;
+		this.page = page;
 		this.tabIndex = tabIndex;
 	}
 
@@ -128,14 +137,20 @@ public class MainViewControlImpl implements MainViewControlIF,
 	}
 
 	@Override
-	public boolean onTabChange(int index, int tabIndex,ForumDataModelIF forumDataModelIF) {
+	public boolean onTabChange(int index, int tabIndex,
+			ForumDataModelIF forumDataModelIF) {
 		boolean isChange = !(this.tabIndex == tabIndex && this.index == index);
 		this.tabIndex = tabIndex;
 		this.index = index;
-		if(isChange){
-			page = forumDataModelIF.getPageInfo(URLCreator.getFid(index, tabIndex));
+		if (isChange) {
+			((MainForumFragement) mainForumFragement).setRefrush();
 		}
 		return isChange;
+	}
+
+	@Override
+	public void notifyToast(ToastType type) {
+		((MainForumFragement) mainForumFragement).notifyToast(type);
 	}
 
 }

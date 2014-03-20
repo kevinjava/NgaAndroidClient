@@ -27,25 +27,16 @@ public class ThreadData {
 	}
 
 	public void mergeList(ThreadData data) {
-
 		List<ForumDataBean> aList = new ArrayList<ForumDataBean>();
 		aList.addAll(data.rowList);
 		aList.retainAll(rowList);
-		Log.i("test", "the same list item");
-		for (ForumDataBean bean : aList) {
-			Log.i("test", "before" + bean.subject);
-		}
-		Log.i("test", "remove the same");
-		for (Iterator iterator = aList.iterator(); iterator.hasNext();) {
-			ForumDataBean forumDataBean = (ForumDataBean) iterator.next();
+		for (Iterator<ForumDataBean> iterator = aList.iterator(); iterator
+				.hasNext();) {
+			ForumDataBean forumDataBean = iterator.next();
 			int index = rowList.indexOf(forumDataBean);
 			rowList.remove(index);
 			rowList.add(index, forumDataBean);
 			data.rowList.remove(forumDataBean);
-		}
-		Log.i("test", "after removed");
-		for (ForumDataBean bean : data.rowList) {
-			Log.i("test", "after" + bean.subject);
 		}
 		rowList.addAll(data.rowList);
 		rowNum = rowList.size();

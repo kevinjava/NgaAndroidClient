@@ -36,7 +36,7 @@ public class Controller implements ViewControllIF {
 
 	@Override
 	public void onForumChange(int index, int tabIndex) {
-		mainViewControlIF.switchForum(index, tabIndex);
+		mainViewControlIF.switchForum(index, tabIndex, forumDataModel);
 	}
 
 	@Override

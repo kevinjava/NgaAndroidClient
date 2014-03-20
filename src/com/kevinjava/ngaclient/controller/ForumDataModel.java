@@ -7,6 +7,7 @@ import android.annotation.SuppressLint;
 import android.util.Log;
 
 import com.kevinjava.ngaclient.NgaApp;
+import com.kevinjava.ngaclient.constant.ToastType;
 import com.kevinjava.ngaclient.listener.ForumObserver;
 import com.kevinjava.ngaclient.model.GroupModel;
 import com.kevinjava.ngaclient.model.HttpRequestBean;
@@ -49,6 +50,7 @@ public class ForumDataModel implements ForumDataModelIF {
 		if (bean == null) {
 			// not login
 			Log.e("test", "object is null");
+			notifyToast(httpBean, ToastType.NotLogin);
 			return;
 		}
 		synchronized (sync) {
@@ -56,7 +58,7 @@ public class ForumDataModel implements ForumDataModelIF {
 			if (data != null) {
 				if (httpBean.getType() == NetRequestType.RefrushForumData) {
 					Log.e("test", "refrush merge the list");
-					bean.mergeList(data);
+//					bean.mergeList(data);
 					forumDatas.put(httpBean.getFid(), bean);
 				} else {
 					Log.e("test", "merge the list");
@@ -87,6 +89,13 @@ public class ForumDataModel implements ForumDataModelIF {
 		ForumObserver ob = observers.get(bean.getType());
 		if (ob != null) {
 			ob.update(bean, this);
+		}
+	}
+	
+	public void notifyToast(HttpRequestBean bean, ToastType type){
+		ForumObserver ob = observers.get(bean.getType());
+		if (ob != null) {
+			ob.notifyToast(type);
 		}
 	}
 
