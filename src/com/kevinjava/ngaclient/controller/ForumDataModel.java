@@ -4,19 +4,21 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import android.annotation.SuppressLint;
-import android.util.Log;
 
 import com.kevinjava.ngaclient.NgaApp;
-import com.kevinjava.ngaclient.constant.ToastType;
 import com.kevinjava.ngaclient.listener.ForumObserver;
 import com.kevinjava.ngaclient.model.GroupModel;
 import com.kevinjava.ngaclient.model.HttpRequestBean;
 import com.kevinjava.ngaclient.model.ThreadData;
 import com.kevinjava.ngaclient.network.AsyncForumHttpResponseHandler;
 import com.kevinjava.ngaclient.network.NetworkManager;
+import com.kevinjava.ngaclient.states.NotLoginState;
+import com.kevinjava.ngaclient.states.ResultStates;
+import com.kevinjava.ngaclient.util.NgaLog;
 
 @SuppressLint("UseSparseArrays")
 public class ForumDataModel implements ForumDataModelIF {
+	private static final String TAG = ForumDataModel.class.getSimpleName();
 
 	private HashMap<Integer, ThreadData> forumDatas;
 	private HashMap<Integer, Integer> pageDatas;
@@ -39,33 +41,37 @@ public class ForumDataModel implements ForumDataModelIF {
 		if(lastPage == null || page != 1){
 			pageDatas.put(fid, page);
 		}
-		NetworkManager.getInstance().asyncGetRequest(
+		HttpRequestBean bean = new HttpRequestBean(type,
+				fid, url, page == 1);
+		ResultStates status = NetworkManager.getInstance().asyncGetRequest(
 				url,
-				new AsyncForumHttpResponseHandler(new HttpRequestBean(type,
-						fid, url, page == 1), this));
+				new AsyncForumHttpResponseHandler(bean, this));
+		if(status != null){
+			notifyToast(bean, status);
+		}
 	}
 
 	@Override
 	public void addNewForumData(HttpRequestBean httpBean, ThreadData bean) {
 		if (bean == null) {
 			// not login
-			Log.e("test", "object is null");
-			notifyToast(httpBean, ToastType.NotLogin);
+			NgaLog.e(TAG, "object is null");
+			notifyToast(httpBean, new NotLoginState());
 			return;
 		}
 		synchronized (sync) {
 			ThreadData data = forumDatas.get(httpBean.getFid());
 			if (data != null) {
 				if (httpBean.getType() == NetRequestType.RefrushForumData) {
-					Log.e("test", "refrush merge the list");
+					NgaLog.e(TAG, "refrush merge the list");
 //					bean.mergeList(data);
 					forumDatas.put(httpBean.getFid(), bean);
 				} else {
-					Log.e("test", "merge the list");
+					NgaLog.e(TAG, "merge the list");
 					data.mergeList(bean);
 				}
 			} else {
-				Log.e("test", "put to the map");
+				NgaLog.e(TAG, "put to the map");
 				forumDatas.put(httpBean.getFid(), bean);
 			}
 			notifyChange(httpBean);
@@ -92,10 +98,10 @@ public class ForumDataModel implements ForumDataModelIF {
 		}
 	}
 	
-	public void notifyToast(HttpRequestBean bean, ToastType type){
+	public void notifyToast(HttpRequestBean bean, ResultStates state){
 		ForumObserver ob = observers.get(bean.getType());
 		if (ob != null) {
-			ob.notifyToast(type);
+			ob.notifyToast(state);
 		}
 	}
 

@@ -10,6 +10,7 @@ package me.maxwin.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
@@ -164,9 +165,13 @@ public class XListView extends ListView implements OnScrollListener {
 	 */
 	public void stopRefresh() {
 		if (mPullRefreshing == true) {
+			Log.i("test", "stop refresh");
 			mPullRefreshing = false;
 			resetHeaderHeight();
+		}else{
+			Log.i("test", "not stop refresh");
 		}
+			
 	}
 
 	/**

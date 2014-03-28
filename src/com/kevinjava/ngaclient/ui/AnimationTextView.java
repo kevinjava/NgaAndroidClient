@@ -60,6 +60,18 @@ public class AnimationTextView extends LinearLayout {
 		toAstTextView.setVisibility(View.VISIBLE);
 	}
 	
+	public void setBackgroundRed(){
+		toAstTextView.setBackgroundResource(R.color.ToastRed);
+	}
+	
+	public void setBackgroundGreen(){
+		toAstTextView.setBackgroundResource(R.color.ToastGreen);
+	}
+	
+	public void setBackgroundOrange(){
+		toAstTextView.setBackgroundResource(R.color.ToastOrange);
+	}
+	
 	public void resetView() {
 		mScroller.startScroll(0, 0, 0, -getHeight(), 1000);
 		invalidate();
@@ -76,7 +88,6 @@ public class AnimationTextView extends LinearLayout {
 			postInvalidate();
 		}
 		if (mScroller.isFinished() && isScrolling) {
-			Log.i("test", "scrolling is finished");
 			isScrolling = false;
 //			resetView();
 			toAstTextView.setVisibility(View.INVISIBLE);

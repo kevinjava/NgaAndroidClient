@@ -7,6 +7,7 @@ import com.kevinjava.ngaclient.R;
 import com.kevinjava.ngaclient.constant.ToastType;
 import com.kevinjava.ngaclient.factory.FragmentFactoryIF;
 import com.kevinjava.ngaclient.model.HttpRequestBean;
+import com.kevinjava.ngaclient.states.ResultStates;
 import com.kevinjava.ngaclient.ui.BaseActivity;
 
 public class SlideRightViewImpl implements SlideRightViewControlIF{
@@ -43,7 +44,7 @@ public class SlideRightViewImpl implements SlideRightViewControlIF{
 		
 	}
 	@Override
-	public void notifyToast(ToastType type) {
+	public void notifyToast(ResultStates states) {
 		// TODO Auto-generated method stub
 		
 	}

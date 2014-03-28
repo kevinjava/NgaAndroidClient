@@ -40,7 +40,6 @@ public class ThreadData {
 		}
 		rowList.addAll(data.rowList);
 		rowNum = rowList.size();
-		Log.i("test", "final list size" + rowNum);
 	}
 
 }

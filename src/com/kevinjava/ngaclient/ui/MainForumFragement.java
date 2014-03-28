@@ -5,21 +5,33 @@ import java.util.List;
 
 import me.maxwin.view.XListView;
 import me.maxwin.view.XListView.IXListViewListener;
+import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 
 import com.kevinjava.ngaclient.R;
-import com.kevinjava.ngaclient.constant.ToastType;
+import com.kevinjava.ngaclient.controller.MainViewControlImpl;
 import com.kevinjava.ngaclient.controller.NetRequestType;
 import com.kevinjava.ngaclient.model.ForumDataBean;
 import com.kevinjava.ngaclient.model.HttpRequestBean;
 import com.kevinjava.ngaclient.model.ThreadData;
+import com.kevinjava.ngaclient.states.LoadMoreSuccessStates;
+import com.kevinjava.ngaclient.states.NetworkErrorStatus;
+import com.kevinjava.ngaclient.states.NoNewThreadStates;
+import com.kevinjava.ngaclient.states.NotLoginState;
+import com.kevinjava.ngaclient.states.RefreshDataSuccessStates;
+import com.kevinjava.ngaclient.states.ResultStates;
+import com.kevinjava.ngaclient.util.NgaLog;
 
 public class MainForumFragement extends NgaBaseFragment implements
-		IXListViewListener {
-
+		IXListViewListener,OnItemClickListener {
+	private static final String TAG = MainForumFragement.class.getSimpleName();
 	XListView listView;
 	ThreadData data;
 	int index;
@@ -27,6 +39,7 @@ public class MainForumFragement extends NgaBaseFragment implements
 	int page;
 	MainForumAdapter adapter;
 	AnimationTextView toastView;
+	int currentDataSize = 0;
 
 	public MainForumFragement setThreadData(ThreadData data) {
 		this.data = data;
@@ -46,6 +59,8 @@ public class MainForumFragement extends NgaBaseFragment implements
 		listView = (XListView) view.findViewById(R.id.xListView);
 		listView.setPullLoadEnable(true);
 		listView.setXListViewListener(this);
+		listView.setOnItemClickListener(this);
+		listView.setSelector(R.drawable.listview_selector);
 		return view;
 	}
 
@@ -73,7 +88,7 @@ public class MainForumFragement extends NgaBaseFragment implements
 	}
 
 	public synchronized void setDataChange(ThreadData data, HttpRequestBean bean) {
-		listView.stopRefresh();
+		this.data = data;
 		if (bean.getType() == NetRequestType.RefrushForumData) {
 			List<ForumDataBean> aList = new ArrayList<ForumDataBean>();
 			aList.addAll(adapter.getThreadData().getRowList());
@@ -82,16 +97,24 @@ public class MainForumFragement extends NgaBaseFragment implements
 			aList.clear();
 			adapter = new MainForumAdapter(data, getActivity());
 			listView.setAdapter(adapter);
-			notifyToast(ToastType.Success, count);
+			notifyToast(count == 0 ? new NoNewThreadStates()
+					: new RefreshDataSuccessStates(count));
+			listView.stopRefresh();
 			// listView.setRefreshTime("刚刚");
 		} else {
 			adapter.setThreadData(data);
 			adapter.notifyDataSetChanged();
 			if ((bean.getType() == NetRequestType.OnLoadMore)) {
 				listView.stopLoadMore();
+				notifyToast(new LoadMoreSuccessStates(adapter.getCount() - currentDataSize));
+				currentDataSize = adapter.getCount();
+			}else {
+				// tab change request
+				notifyToast(new RefreshDataSuccessStates(data.getRowNum()));
+				listView.stopRefresh();
 			}
-			// mListView.setRefreshTime("刚刚");
 		}
+		currentDataSize = data.getRowNum();
 		if (bean.isSelectFirst()
 				&& bean.getType() != NetRequestType.RefrushForumData) {
 			listView.setSelection(1);
@@ -107,36 +130,23 @@ public class MainForumFragement extends NgaBaseFragment implements
 		listView.setPullLoadEnable(true);
 	}
 
-	public void notifyToast(ToastType type) {
-		if (type == ToastType.Success) {
-
-		} else if (type == ToastType.NotLogin) {
-
-		} else if (type == ToastType.NetworkError) {
-
+	public void notifyToast(ResultStates states) {
+		if(states instanceof NetworkErrorStatus || states instanceof NotLoginState){
+			listView.stopRefresh();
 		}
+		states.showToast(toastView);
 	}
 
-	public void notifyToast(final ToastType type, final int count) {
-		toastView.setVisibility(View.VISIBLE);
-		toastView.resetTextView();
-		String showTxt = "";
-		if(count > 0 ){
-			showTxt = "新加载" + count + "条主题";
+	@Override
+	public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
+		NgaLog.i(TAG, "current data:" + data.getRowList().get(arg2 - 1).getSubject());
+		Intent intent = new Intent(getActivity(),ThreadDetailActivity.class);
+		if(!TextUtils.isEmpty(data.getRowList().get(arg2 -1).getQuote_from()) && !data.getRowList().get(arg2 -1).getQuote_from().equals("0")){
+			intent.putExtra("tid", data.getRowList().get(arg2 -1).getQuote_from());
 		}else {
-			showTxt = "没有新主题";
+			intent.putExtra("tid", data.getRowList().get(arg2 -1).getTid());
 		}
-		toastView.setText(showTxt);
-		toastView.postDelayed(new Runnable() {
-
-			@Override
-			public void run() {
-				if (type == ToastType.Success) {
-					toastView.startScroll();
-				}
-			}
-		}, 800);
-
+		startActivity(intent);
+		getActivity().overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
 	}
-
 }

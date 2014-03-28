@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+	<color name="trans_black">#b2F7BE81</color>
     <!-- template -->
 	<color name="ToastGreen">#b2276b23</color>
     <color name="ToastRed">#b28d1616</color>

@@ -6,12 +6,12 @@ import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import android.util.Log;
-
 import com.kevinjava.ngaclient.NgaApp;
 import com.kevinjava.ngaclient.model.GroupModel;
 
 public class URLCreator {
+	
+	private static final String TAG = URLCreator.class.getSimpleName();
 	private static final String BASE_URL = "http://bbs.ngacn.cc";
 	private static final String QUESTION_MARK = "?";
 	private static final String AND = "&";
@@ -78,21 +78,30 @@ public class URLCreator {
 	 * /thread.php?fid=7&recommend=1&authorid=58 (版面id7中发布人用户id是58的所有精华 推荐 加分的主题
 	 */
 
-	public static final String getForumUrl(int fid, int page, int tab ) {
-		String url = new StringBuffer(BASE_URL).append(THREAD).append(QUESTION_MARK)
-				.append(FID).append(getFid(fid, tab)).append(AND).append(PAGE).append(page)
-				.append(AND).append(LITE).append(AND).append(V2).toString();
-		Log.i("test", url);
+	public static final String getForumUrl(int fid, int page, int tab) {
+		String url = new StringBuffer(BASE_URL).append(THREAD)
+				.append(QUESTION_MARK).append(FID).append(getFid(fid, tab))
+				.append(AND).append(PAGE).append(page).append(AND).append(LITE)
+				.append(AND).append(V2).toString();
+		NgaLog.i(TAG, url);
 		return url;
 	}
-	
-	public static final int getFid(int index, int tabIndex){
+
+	public static final String getSubjectUrl(int tid, int page) {
+		String url = new StringBuffer(BASE_URL).append(READ).append(QUESTION_MARK)
+				.append(TID).append(tid).append(AND).append(PAGE).append(page)
+				.append(AND).append(LITE).append(AND).append(V2).toString();
+		NgaLog.i(TAG, "subject url: " + url);
+		return url;
+	}
+
+	public static final int getFid(int index, int tabIndex) {
 		final ArrayList<GroupModel> forums = NgaApp.groups;
 		GroupModel currentGroup = forums.get(index);
 		return currentGroup.forums.get(tabIndex).fid;
 	}
-	
-	public static final void parseString(){
+
+	public static final void parseString() {
 		String test = "[123][abc][456def]测试subject";
 		Pattern pattern = Pattern.compile("\\[[^\\]]*\\]");
 		Matcher matcher = pattern.matcher(test);
@@ -102,15 +111,15 @@ public class URLCreator {
 			System.out.println(matcher.group());
 		}
 	}
-	
-	public static String formatDate(String time){
+
+	public static String formatDate(String time) {
 		SimpleDateFormat format = new SimpleDateFormat();
 		System.out.println(format.format(new Date(Long.parseLong(time))));
 		return null;
 	}
-	
+
 	public static void main(String[] args) {
-//		System.out.println(getForumUrl(7, 1, 0));
+		// System.out.println(getForumUrl(7, 1, 0));
 		parseString();
 		formatDate("1394680613");
 	}

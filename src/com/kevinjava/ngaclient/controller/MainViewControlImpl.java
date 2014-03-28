@@ -13,18 +13,19 @@ import android.widget.ArrayAdapter;
 
 import com.kevinjava.ngaclient.NgaApp;
 import com.kevinjava.ngaclient.R;
-import com.kevinjava.ngaclient.constant.ToastType;
 import com.kevinjava.ngaclient.factory.FragmentFactoryIF;
 import com.kevinjava.ngaclient.model.GroupModel;
 import com.kevinjava.ngaclient.model.HttpRequestBean;
 import com.kevinjava.ngaclient.model.ThreadData;
+import com.kevinjava.ngaclient.states.ResultStates;
 import com.kevinjava.ngaclient.ui.BaseActivity;
 import com.kevinjava.ngaclient.ui.MainForumFragement;
 import com.kevinjava.ngaclient.ui.NgaBaseFragment;
+import com.kevinjava.ngaclient.util.NgaLog;
 
 public class MainViewControlImpl implements MainViewControlIF,
 		OnNavigationListener {
-
+	private static final String TAG = MainViewControlImpl.class.getSimpleName();
 	BaseActivity baseActivity;
 	FragmentFactoryIF fragmentFactory;
 	int index = -1;
@@ -84,7 +85,7 @@ public class MainViewControlImpl implements MainViewControlIF,
 
 	@Override
 	public void handlerForumData(String data) {
-		Log.e("test", data);
+		NgaLog.e("test", data);
 	}
 
 	@Override
@@ -149,8 +150,8 @@ public class MainViewControlImpl implements MainViewControlIF,
 	}
 
 	@Override
-	public void notifyToast(ToastType type) {
-		((MainForumFragement) mainForumFragement).notifyToast(type);
+	public void notifyToast(ResultStates states) {
+		((MainForumFragement) mainForumFragement).notifyToast(states);
 	}
 
 }
