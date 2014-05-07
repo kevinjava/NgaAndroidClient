@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff2f2f2f" >
+	<TextView style="@style/titleTextView" android:layout_width="match_parent" android:text="@string/user_login"/>
+    <Button
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login" 
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"/>
+
+</RelativeLayout><!-- From: file:/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/slide_right_not_login.xml -->

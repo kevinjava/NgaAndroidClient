@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <gradient
+        android:angle="180"
+        android:startColor="#FFFFFFFF"
+        android:centerColor="#F5DA81"
+        android:endColor="#FFFFFFFF"/>
+
+</shape><!-- From: file:/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable/list_divider.xml -->

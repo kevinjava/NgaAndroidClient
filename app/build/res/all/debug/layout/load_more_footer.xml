@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/load_more_footer"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/timeline_bg_image" >
+
+    <View
+        android:id="@+id/top_line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/dark_slate_gray"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/load_more_progressBar"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_centerInParent="true"
+        android:padding="3dp"
+        android:src="@drawable/imageloading"
+        android:visibility="gone" />
+
+</RelativeLayout><!-- From: file:/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/load_more_footer.xml -->

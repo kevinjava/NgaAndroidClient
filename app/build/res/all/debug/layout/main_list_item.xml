@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/list_item_bg">
+
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/default_user_avatar" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/user_icon"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/pushlish_time"
+        style="@style/subjectTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/user_name"
+        android:layout_alignBottom="@id/user_name"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/forum_subject"
+        style="@style/bodyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/user_name"
+        android:layout_alignRight="@id/pushlish_time"
+        android:layout_below="@id/user_name"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:id="@+id/reply_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/forum_subject"
+        android:layout_below="@id/forum_subject"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:src="@drawable/timeline_btn_cmt_normal" />
+
+    <TextView
+        android:id="@+id/reply_num"
+        style="@style/subjectTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/reply_icon"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/reply_icon" />
+
+    <TextView
+        android:id="@+id/last_reply_name"
+        style="@style/subjectTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/reply_num"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/reply_num" />
+
+</RelativeLayout><!-- From: file:/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/main_list_item.xml -->

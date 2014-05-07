@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res" >
+            <file
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="indicator_arrow"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-mdpi/indicator_arrow.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="default_ptr_rotate"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-mdpi/default_ptr_rotate.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="default_ptr_flip"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-mdpi/default_ptr_flip.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="shadowright"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable/shadowright.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_divider"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable/list_divider.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="indicator_bg_top"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable/indicator_bg_top.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="indicator_bg_bottom"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable/indicator_bg_bottom.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="btn_drawer_menu"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable/btn_drawer_menu.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="action_bar_bg"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable/action_bar_bg.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="listview_selector"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable/listview_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="drawer_menu_divider"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable/drawer_menu_divider.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_item_bg"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable/list_item_bg.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="shadow"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable/shadow.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="imageloading"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable/imageloading.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="costum_progress_bar"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable/costum_progress_bar.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_loading_with_shadow_2"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/list_loading_with_shadow_2.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="timeline_btn_cmt_pressed"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/timeline_btn_cmt_pressed.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="list_loading_light_3"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/list_loading_light_3.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="pullheader_indicator"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/pullheader_indicator.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="shadow_right"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/shadow_right.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="indicator_arrow"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/indicator_arrow.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="default_ptr_rotate"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/default_ptr_rotate.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="timeline_bg_image"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/timeline_bg_image.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="timeline_btn_cmt_normal"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/timeline_btn_cmt_normal.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="list_loading_with_shadow_4"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/list_loading_with_shadow_4.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="list_loading_with_shadow_1"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/list_loading_with_shadow_1.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="shadow_left"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/shadow_left.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_pulltorefresh_arrow"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/ic_pulltorefresh_arrow.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="list_loading_light_2"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/list_loading_light_2.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="timeline_btn_ret_normal"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/timeline_btn_ret_normal.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="timeline_btn_ret_pressed"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/timeline_btn_ret_pressed.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="list_loading_with_shadow_3"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/list_loading_with_shadow_3.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="list_loading_light_5"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/list_loading_light_5.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="list_loading_with_shadow_5"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/list_loading_with_shadow_5.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="list_loading_light_1"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/list_loading_light_1.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="list_loading_with_shadow_0"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/list_loading_with_shadow_0.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="list_loading_light_4"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/list_loading_light_4.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="default_ptr_flip"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/default_ptr_flip.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="shadow_bottom"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xhdpi/shadow_bottom.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="default_user_avatar"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xxhdpi/default_user_avatar.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="abs__list_divider_holo_dark"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xxhdpi/abs__list_divider_holo_dark.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="abs__list_divider_holo_light"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-xxhdpi/abs__list_divider_holo_light.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="push_left_in"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/push_left_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="slide_top_to_bottom"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/slide_top_to_bottom.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="slide_in_from_bottom"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/slide_in_from_bottom.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="push_up_in"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/push_up_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="activity_fadeout"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/activity_fadeout.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="hyperspace_out"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/hyperspace_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="layout_bottom_to_top_slide"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/layout_bottom_to_top_slide.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="layout_animation_row_right_slide"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/layout_animation_row_right_slide.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="animator_set"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/animator_set.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="layout_random_fade"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/layout_random_fade.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="layout_grid_inverse_fade"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/layout_grid_inverse_fade.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="fade"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/fade.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="shake"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/shake.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="layout_animation_table"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/layout_animation_table.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="color_animator"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/color_animator.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="push_up_out"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/push_up_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="animator"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/animator.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="layout_wave_scale"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/layout_wave_scale.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="hold"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/hold.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="layout_animation_row_left_slide"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/layout_animation_row_left_slide.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="slide_out_to_top"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/slide_out_to_top.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="zoom_exit"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/zoom_exit.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="push_left_out"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/push_left_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="hyperspace_in"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/hyperspace_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="slide_right"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/slide_right.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="wave_scale"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/wave_scale.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="cycle_7"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/cycle_7.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="slide_out_to_bottom"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/slide_out_to_bottom.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="slide_left"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/slide_left.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="zoom_enter"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/zoom_enter.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="object_animator"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/object_animator.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="slide_in_from_top"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/slide_in_from_top.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="layout_grid_fade"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/anim/layout_grid_fade.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="main"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="pop"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/raw/pop.ogg"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="psst2"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/raw/psst2.ogg"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="psst1"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/raw/psst1.ogg"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                name="indicator_arrow"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-hdpi/indicator_arrow.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="default_ptr_rotate"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-hdpi/default_ptr_rotate.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="default_ptr_flip"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/drawable-hdpi/default_ptr_flip.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="slidingmenumain"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/slidingmenumain.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="swipeback_layout"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/swipeback_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="slide_right_not_login"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/slide_right_not_login.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="xlistview_header"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/xlistview_header.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="menu_frame_two"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/menu_frame_two.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="pull_to_refresh_header_horizontal"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/pull_to_refresh_header_horizontal.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="xlistview_footer"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/xlistview_footer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="pull_and_load"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/pull_and_load.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="pull_to_refresh_header"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/pull_to_refresh_header.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="action_list_item"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/action_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="menu_frame"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/menu_frame.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main_list_item"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/main_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="thread_detail_layout"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/thread_detail_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="pull_to_refresh_header_vertical"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/pull_to_refresh_header_vertical.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="load_more_footer"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/load_more_footer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="pulldown_header_two"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/pulldown_header_two.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="slide_left"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/slide_left.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_ptr_list"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/activity_ptr_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="pulldown_header"
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/pulldown_header.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="pull_to_refresh_from_bottom_pull_label" >上拉加载更多…
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="pull_to_refresh_release_label" >松开刷新
+                </string>
+                <string name="forum_other" >其他版面
+                </string>
+                <string name="pull_to_refresh_from_bottom_release_label" >松手加载更多…
+                </string>
+                <string name="xlistview_header_hint_normal" >下拉刷新
+                </string>
+                <string name="forum_history" >历史背景 资料整理
+                </string>
+                <string name="forum_title" >版块
+                </string>
+                <string name="xlistview_header_hint_ready" >松开刷新数据
+                </string>
+                <string name="forum_total" >魔兽世界综合讨论
+                </string>
+                <string name="pull_to_refresh_refreshing_label" >正在加载
+                </string>
+                <string name="forum_job" >职业讨论区
+                </string>
+                <string name="xlistview_footer_hint_ready" >松开载入更多
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="login" >点击登录
+                </string>
+                <string name="forum_adventure" >冒险心得
+                </string>
+                <string name="xlistview_header_last_time" >上次更新时间：
+                </string>
+                <string name="pull_to_refresh_pull_label" >下拉刷新
+                </string>
+                <string name="forum_dialobe" >暗黑破坏神
+                </string>
+                <string name="pull_to_refresh_from_bottom_refreshing_label" >@string/pull_to_refresh_refreshing_label
+                </string>
+                <string name="xlistview_header_hint_loading" >正在加载...
+                </string>
+                <string name="forum_game" >游戏专版
+                </string>
+                <string name="app_name" >ngaclient
+                </string>
+                <string name="pull_to_refresh_tap_label" >Tap to refresh...
+                </string>
+                <string name="user_login" >用户登录
+                </string>
+                <string name="forum_net" >网事杂谈
+                </string>
+                <string name="user_center" >个人中心
+                </string>
+                <string name="xlistview_footer_hint_normal" >查看更多
+                </string>
+            </file>
+            <file
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/values/ids.xml"
+                qualifiers="" >
+                <item
+                    name="selected_view"
+                    type="id"/>
+                <item
+                    name="gridview"
+                    type="id"/>
+                <item
+                    name="webview"
+                    type="id"/>
+                <item
+                    name="scrollview"
+                    type="id"/>
+            </file>
+            <file
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/values/attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="PullToRefresh" >
+
+                    <!-- A drawable to use as the background of the Refreshable View -->
+                    <attr
+                        name="ptrRefreshableViewBackground"
+                        format="reference|color" />
+
+                    <!-- A drawable to use as the background of the Header and Footer Loading Views -->
+                    <attr
+                        name="ptrHeaderBackground"
+                        format="reference|color" />
+
+                    <!-- Text Color of the Header and Footer Loading Views -->
+                    <attr
+                        name="ptrHeaderTextColor"
+                        format="reference|color" />
+
+                    <!-- Text Color of the Header and Footer Loading Views Sub Header -->
+                    <attr
+                        name="ptrHeaderSubTextColor"
+                        format="reference|color" />
+
+                    <!-- Mode of Pull-to-Refresh that should be used -->
+                    <attr name="ptrMode" >
+                        <flag
+                            name="disabled"
+                            value="0x0" />
+                        <flag
+                            name="pullFromStart"
+                            value="0x1" />
+                        <flag
+                            name="pullFromEnd"
+                            value="0x2" />
+                        <flag
+                            name="both"
+                            value="0x3" />
+                        <flag
+                            name="manualOnly"
+                            value="0x4" />
+
+                        <!-- These last two are depreacted -->
+                        <flag
+                            name="pullDownFromTop"
+                            value="0x1" />
+                        <flag
+                            name="pullUpFromBottom"
+                            value="0x2" />
+                    </attr>
+
+                    <!-- Whether the Indicator overlay(s) should be used -->
+                    <attr
+                        name="ptrShowIndicator"
+                        format="reference|boolean" />
+
+                    <!-- Drawable to use as Loading Indicator. Changes both Header and Footer. -->
+                    <attr
+                        name="ptrDrawable"
+                        format="reference" />
+
+                    <!-- Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable. -->
+                    <attr
+                        name="ptrDrawableStart"
+                        format="reference" />
+
+                    <!-- Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable. -->
+                    <attr
+                        name="ptrDrawableEnd"
+                        format="reference" />
+
+                    <!-- Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh. -->
+                    <attr
+                        name="ptrOverScroll"
+                        format="reference|boolean" />
+
+                    <!-- Base text color, typeface, size, and style for Header and Footer Loading Views -->
+                    <attr
+                        name="ptrHeaderTextAppearance"
+                        format="reference" />
+
+                    <!-- Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header -->
+                    <attr
+                        name="ptrSubHeaderTextAppearance"
+                        format="reference" />
+
+                    <!-- Style of Animation should be used displayed when pulling. -->
+                    <attr name="ptrAnimationStyle" >
+                        <flag
+                            name="rotate"
+                            value="0x0" />
+                        <flag
+                            name="flip"
+                            value="0x1" />
+                    </attr>
+
+                    <!-- Whether the user can scroll while the View is Refreshing -->
+                    <attr
+                        name="ptrScrollingWhileRefreshingEnabled"
+                        format="reference|boolean" />
+
+                    <!--
+        	Whether PullToRefreshListView has it's extras enabled. This allows the user to be 
+        	able to scroll while refreshing, and behaves better. It acheives this by adding
+        	Header and/or Footer Views to the ListView.
+                    -->
+                    <attr
+                        name="ptrListViewExtrasEnabled"
+                        format="reference|boolean" />
+
+                    <!--
+        	Whether the Drawable should be continually rotated as you pull. This only
+        	takes effect when using the 'Rotate' Animation Style.
+                    -->
+                    <attr
+                        name="ptrRotateDrawableWhilePulling"
+                        format="reference|boolean" />
+
+                    <!-- BELOW HERE ARE DEPRECEATED. DO NOT USE. -->
+                    <attr
+                        name="ptrAdapterViewBackground"
+                        format="reference|color" />
+                    <attr
+                        name="ptrDrawableTop"
+                        format="reference" />
+                    <attr
+                        name="ptrDrawableBottom"
+                        format="reference" />
+                </declare-styleable>
+
+                <attr
+                    name="SwipeBackLayoutStyle"
+                    format="reference" />
+
+                <declare-styleable name="SlidingMenu" >
+                    <attr name="mode" >
+                        <enum
+                            name="left"
+                            value="0" />
+                        <enum
+                            name="right"
+                            value="1" />
+                    </attr>
+                    <attr
+                        name="viewAbove"
+                        format="reference" />
+                    <attr
+                        name="viewBehind"
+                        format="reference" />
+                    <attr
+                        name="behindOffset"
+                        format="dimension" />
+                    <attr
+                        name="behindWidth"
+                        format="dimension" />
+                    <attr
+                        name="behindScrollScale"
+                        format="float" />
+                    <attr name="touchModeAbove" >
+                        <enum
+                            name="margin"
+                            value="0" />
+                        <enum
+                            name="fullscreen"
+                            value="1" />
+                    </attr>
+                    <attr name="touchModeBehind" >
+                        <enum
+                            name="margin"
+                            value="0" />
+                        <enum
+                            name="fullscreen"
+                            value="1" />
+                    </attr>
+                    <attr
+                        name="shadowDrawable"
+                        format="reference" />
+                    <attr
+                        name="shadowWidth"
+                        format="dimension" />
+                    <attr
+                        name="fadeEnabled"
+                        format="boolean" />
+                    <attr
+                        name="fadeDegree"
+                        format="float" />
+                    <attr
+                        name="selectorEnabled"
+                        format="boolean" />
+                    <attr
+                        name="selectorDrawable"
+                        format="reference" />
+                </declare-styleable>
+                <declare-styleable name="SwipeBackLayout" >
+                    <attr
+                        name="edge_size"
+                        format="dimension" />
+                    <attr name="edge_flag" >
+                        <enum
+                            name="left"
+                            value="0" />
+                        <enum
+                            name="right"
+                            value="1" />
+                        <enum
+                            name="bottom"
+                            value="2" />
+                        <enum
+                            name="all"
+                            value="3" />
+                    </attr>
+                    <attr
+                        name="shadow_left"
+                        format="reference" />
+                    <attr
+                        name="shadow_right"
+                        format="reference" />
+                    <attr
+                        name="shadow_bottom"
+                        format="reference" />
+                </declare-styleable>
+            </file>
+            <file
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style name="subjectTextView" >
+                    <item name="android:textSize">
+12dp
+                    </item>
+                    <item name="android:textColor">
+@color/custonBlack
+                    </item>
+                </style>
+
+                <style name="SwipeBackLayout" >
+                    <item name="edge_size">
+50dip
+                    </item>
+                    <item name="shadow_left">
+@drawable/shadow_left
+                    </item>
+                    <item name="shadow_right">
+@drawable/shadow_right
+                    </item>
+                    <item name="shadow_bottom">
+@drawable/shadow_bottom
+                    </item>
+                </style>
+
+                <style name="titleTextView" >
+                    <item name="android:textSize">
+16.0dip
+                    </item>
+                    <item name="android:textColor">
+@android:color/white
+                    </item>
+                    <item name="android:gravity">
+left|center
+                    </item>
+                    <item name="android:background">
+#696969
+                    </item>
+                    <item name="android:paddingLeft">
+8.0dip
+                    </item>
+                    <item name="android:paddingRight">
+8.0dip
+                    </item>
+                    <item name="android:layout_width">
+0dp
+                    </item>
+                    <item name="android:layout_weight">
+1
+                    </item>
+                    <item name="android:layout_height">
+48.0dip
+                    </item>
+                </style>
+
+                <style name="bodyTextView" >
+                    <item name="android:textSize">
+14dp
+                    </item>
+                    <item name="android:textColor">
+@color/bodyBlack
+                    </item>
+                </style>
+
+                <style name="drawerMenuButton" >
+                    <item name="android:textSize">
+16.0dip
+                    </item>
+                    <item name="android:textColor">
+@android:color/white
+                    </item>
+                    <item name="android:gravity">
+center
+                    </item>
+                    <item name="android:background">
+@drawable/btn_drawer_menu
+                    </item>
+                    <item name="android:paddingLeft">
+8.0dip
+                    </item>
+                    <item name="android:paddingRight">
+8.0dip
+                    </item>
+                    <item name="android:layout_width">
+0dp
+                    </item>
+                    <item name="android:layout_weight">
+1
+                    </item>
+                    <item name="android:layout_height">
+50.0dip
+                    </item>
+                    <item name="android:drawablePadding">
+8.0dip
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+                    <item name="android:windowIsTranslucent">
+true
+                    </item>
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="shadow_width" >15dp
+                </dimen>
+                <dimen name="slidingmenu_offset" >150dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+
+                <integer name="num_cols" >
+1
+                </integer>
+
+                <dimen name="indicator_internal_padding" >4dp
+                </dimen>
+                <dimen name="indicator_corner_radius" >12dp
+                </dimen>
+                <dimen name="indicator_right_padding" >10dp
+                </dimen>
+                <dimen name="list_padding" >10dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="header_footer_left_right_padding" >24dp
+                </dimen>
+                <dimen name="header_footer_top_bottom_padding" >12dp
+                </dimen>
+            </file>
+            <file
+                path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="lightgoldenrodyellow" >#FAFAD2
+                </color>
+                <color name="brown" >#A52A2A
+                </color>
+                <color name="lightgray" >#D3D3D3
+                </color>
+                <color name="bodyBlack" >#2e2e2e
+                </color>
+                <color name="turquoise" >#40E0D0
+                </color>
+                <color name="greenyellow" >#ADFF2F
+                </color>
+                <color name="slateblue" >#6A5ACD
+                </color>
+                <color name="rosybrown" >#BC8F8F
+                </color>
+                <color name="mediumseagreen" >#3CB371
+                </color>
+                <color name="orange" >#FFA500
+                </color>
+                <color name="gray_1" >#C0C0C0
+                </color>
+                <color name="link_pressed_background_color_light" >#33B5E5
+                </color>
+                <color name="mediumpurple" >#9370DB
+                </color>
+                <color name="gray_2" >#AFAFAF
+                </color>
+                <color name="progress_horizontal_progress" >#0099CC
+                </color>
+                <color name="darkolivegreen" >#556B2F
+                </color>
+                <color name="listview_checked_color_holo_dark" >#002E3E
+                </color>
+                <color name="blueviolet" >#8A2BE2
+                </color>
+                <color name="lightsalmon" >#FFA07A
+                </color>
+                <color name="listview_pic_background_dark" >#ff454545
+                </color>
+                <color name="abs__holo_blue_light" >#0080FF
+                </color>
+                <color name="aliceblue" >#F0F8FF
+                </color>
+                <color name="darkgrey" >#A9A9A9
+                </color>
+                <color name="linen" >#FAF0E6
+                </color>
+                <color name="mediumorchid" >#BA55D3
+                </color>
+                <color name="aqua" >#00FFFF
+                </color>
+                <color name="mintcream" >#F5FFFA
+                </color>
+                <color name="red" >#FF0000
+                </color>
+                <color name="darkviolet" >#9400D3
+                </color>
+                <color name="listview_divide" >#FFC5CCD1
+                </color>
+                <color name="orchid" >#DA70D6
+                </color>
+                <color name="violet" >#EE82EE
+                </color>
+                <color name="darkgreen" >#ff006400
+                </color>
+                <color name="dimgrey" >#696969
+                </color>
+                <color name="darkgoldenrod" >#B8860B
+                </color>
+                <color name="maroon" >#800000
+                </color>
+                <color name="palegoldenrod" >#EEE8AA
+                </color>
+                <color name="darkseagreen" >#8FBC8F
+                </color>
+                <color name="teal" >#008080
+                </color>
+                <color name="indigo" >#4B0082
+                </color>
+                <color name="dark_blue" >#7874b8
+                </color>
+                <color name="plum" >#DDA0DD
+                </color>
+                <color name="chartreuse" >#7FFF00
+                </color>
+                <color name="hotpink" >#FF69B4
+                </color>
+                <color name="cadetblue" >#5F9EA0
+                </color>
+                <color name="darkturquoise" >#00CED1
+                </color>
+                <color name="trans_black" >#b2F7BE81
+                </color>
+                <color name="steelblue" >#4682B4
+                </color>
+                <color name="ToastGreen" >#b2276b23
+                </color>
+                <color name="springgreen" >#00FF7F
+                </color>
+                <color name="slategray" >#708090
+                </color>
+                <color name="lightcyan" >#E0FFFF
+                </color>
+                <color name="darkred" >#8B0000
+                </color>
+                <color name="mediumslateblue" >#7B68EE
+                </color>
+                <color name="transparent_cover" >#25000000
+                </color>
+                <color name="cornflowerblue" >#6495ED
+                </color>
+                <color name="darkslategray" >#2F4F4F
+                </color>
+                <color name="darkkhaki" >#BDB76B
+                </color>
+                <color name="gainsboro" >#DCDCDC
+                </color>
+                <color name="lightblue" >#ADD8E6
+                </color>
+                <color name="grey" >#808080
+                </color>
+                <color name="darkcyan" >#008B8B
+                </color>
+                <color name="coral" >#FF7F50
+                </color>
+                <color name="palegreen" >#98FB98
+                </color>
+                <color name="powderblue" >#B0E0E6
+                </color>
+                <color name="whitesmoke" >#F5F5F5
+                </color>
+                <color name="seashell" >#FFF5EE
+                </color>
+                <color name="thistle" >#D8BFD8
+                </color>
+                <color name="lime" >#00FF00
+                </color>
+                <color name="dark_slate_gray" >#2F4F4F
+                </color>
+                <color name="deepskyblue" >#00BFFF
+                </color>
+                <color name="silver" >#C0C0C0
+                </color>
+                <color name="lightslategrey" >#778899
+                </color>
+                <color name="magenta" >#FF00FF
+                </color>
+                <color name="snow" >#FFFAFA
+                </color>
+                <color name="olivedrab" >#6B8E23
+                </color>
+                <color name="honeydew" >#F0FFF0
+                </color>
+                <color name="olive" >#808000
+                </color>
+                <color name="seagreen" >#2E8B57
+                </color>
+                <color name="moccasin" >#FFE4B5
+                </color>
+                <color name="cyan" >#00FFFF
+                </color>
+                <color name="mediumturquoise" >#48D1CC
+                </color>
+                <color name="lightyellow" >#FFFFE0
+                </color>
+                <color name="mediumvioletred" >#C71585
+                </color>
+                <color name="paleturquoise" >#AFEEEE
+                </color>
+                <color name="ics_blue_semi" >#6633b5e5
+                </color>
+                <color name="darksalmon" >#E9967A
+                </color>
+                <color name="chocolate" >#D2691E
+                </color>
+                <color name="bisque" >#FFE4C4
+                </color>
+                <color name="lawngreen" >#7CFC00
+                </color>
+                <color name="custonBlack" >#585858
+                </color>
+                <color name="burlywood" >#DEB887
+                </color>
+                <color name="divide_line" >#FFC5CCD1
+                </color>
+                <color name="dark_gray" >#1E2129
+                </color>
+                <color name="lightgreen" >#90EE90
+                </color>
+                <color name="lavenderblush" >#FFF0F5
+                </color>
+                <color name="khaki" >#F0E68C
+                </color>
+                <color name="midnightblue" >#191970
+                </color>
+                <color name="azure" >#F0FFFF
+                </color>
+                <color name="black" >#000000
+                </color>
+                <color name="light_orange" >#FF7A0F
+                </color>
+                <color name="saddlebrown" >#8B4513
+                </color>
+                <color name="lightgrey" >#D3D3D3
+                </color>
+                <color name="ivory" >#FFFFF0
+                </color>
+                <color name="mediumaquamarine" >#66CDAA
+                </color>
+                <color name="lemonchiffon" >#FFFACD
+                </color>
+                <color name="blue" >#0000FF
+                </color>
+                <color name="navy" >#000080
+                </color>
+                <color name="ghostwhite" >#F8F8FF
+                </color>
+                <color name="gold" >#FFD700
+                </color>
+                <color name="tomato" >#FF6347
+                </color>
+                <color name="lightpink" >#FFB6C1
+                </color>
+                <color name="listview_pic_background_light" >#fff0f0f0
+                </color>
+                <color name="mediumblue" >#0000CD
+                </color>
+                <color name="pink" >#FFC0CB
+                </color>
+                <color name="indianred" >#CD5C5C
+                </color>
+                <color name="purple" >#800080
+                </color>
+                <color name="darkgray" >#A9A9A9
+                </color>
+                <color name="host_background" >#ffe5e5e5
+                </color>
+                <color name="dodgerblue" >#1E90FF
+                </color>
+                <color name="salmon" >#FA8072
+                </color>
+                <color name="ToastRed" >#b28d1616
+                </color>
+                <color name="mistyrose" >#FFE4E1
+                </color>
+                <color name="darkorchid" >#9932CC
+                </color>
+                <color name="dimgray" >#696969
+                </color>
+                <color name="navajowhite" >#FFDEAD
+                </color>
+                <color name="lightskyblue" >#87CEFA
+                </color>
+                <color name="darkorange" >#FF8C00
+                </color>
+                <color name="blanchedalmond" >#FFEBCD
+                </color>
+                <color name="oldlace" >#FDF5E6
+                </color>
+                <color name="green" >#008000
+                </color>
+                <color name="sienna" >#A0522D
+                </color>
+                <color name="cornsilk" >#FFF8DC
+                </color>
+                <color name="peachpuff" >#FFDAB9
+                </color>
+                <color name="deeppink" >#FF1493
+                </color>
+                <color name="beige" >#F5F5DC
+                </color>
+                <color name="darkslategrey" >#2F4F4F
+                </color>
+                <color name="actionbar_bg" >#483d8b
+                </color>
+                <color name="fuchsia" >#FF00FF
+                </color>
+                <color name="ToastOrange" >#b2c47d00
+                </color>
+                <color name="slategrey" >#708090
+                </color>
+                <color name="limegreen" >#32CD32
+                </color>
+                <color name="lavender" >#E6E6FA
+                </color>
+                <color name="transparent" >#00000000
+                </color>
+                <color name="tan" >#D2B48C
+                </color>
+                <color name="orangered" >#FF4500
+                </color>
+                <color name="lightsteelblue" >#B0C4DE
+                </color>
+                <color name="link_pressed_background_color_dark" >#ff454545
+                </color>
+                <color name="top_tip_bar_tip" >#1E90FF
+                </color>
+                <color name="darkmagenta" >#8B008B
+                </color>
+                <color name="antiquewhite" >#FAEBD7
+                </color>
+                <color name="forestgreen" >#228B22
+                </color>
+                <color name="skyblue" >#87CEEB
+                </color>
+                <color name="wheat" >#F5DEB3
+                </color>
+                <color name="crimson" >#DC143C
+                </color>
+                <color name="palevioletred" >#DB7093
+                </color>
+                <color name="aquamarine" >#7FFFD4
+                </color>
+                <color name="royalblue" >#4169E1
+                </color>
+                <color name="peru" >#CD853F
+                </color>
+                <color name="list_divider_color" >#ffe6e6e6
+                </color>
+                <color name="darkslateblue" >#483D8B
+                </color>
+                <color name="gray" >#808080
+                </color>
+                <color name="darkblue" >#00008B
+                </color>
+                <color name="listview_checked_color_holo_light" >#33add6
+                </color>
+                <color name="yellow" >#FFFF00
+                </color>
+                <color name="lightseagreen" >#20B2AA
+                </color>
+                <color name="dark_theme_background" >#201E1C
+                </color>
+                <color name="lightslategray" >#778899
+                </color>
+                <color name="sandybrown" >#F4A460
+                </color>
+                <color name="goldenrod" >#DAA520
+                </color>
+                <color name="firebrick" >#B22222
+                </color>
+                <color name="white" >#FFFFFF
+                </color>
+                <color name="lightcoral" >#F08080
+                </color>
+                <color name="mediumspringgreen" >#00FA9A
+                </color>
+                <color name="top_tip_bar_error" >#FF4444
+                </color>
+                <color name="floralwhite" >#FFFAF0
+                </color>
+                <color name="papayawhip" >#FFEFD5
+                </color>
+            </file>
+        </source>
+        <source path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/build/res/rs/debug" />
+        <source path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/build/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/debug/res" />
+    </dataSet>
+
+</merger>

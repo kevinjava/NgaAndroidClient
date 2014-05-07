@@ -1,4 +1,0 @@
-NgaAndroidClient
-================
-
-just for fun

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black" >
+
+    <me.maxwin.view.XListView
+        android:id="@+id/xListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="1dp" 
+        android:drawSelectorOnTop="true"/>
+
+    <!-- We have to indicate that the listview is now a PullAndLoadListView -->
+
+    <com.kevinjava.ngaclient.ui.AnimationTextView
+        android:id="@+id/toastView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+</RelativeLayout><!-- From: file:/home/kevliu/gradle-samples-0.7.3/ngaclient/app/src/main/res/layout/pull_and_load.xml -->
