@@ -1,16 +1,31 @@
 ECLIPSE ANDROID PROJECT IMPORT SUMMARY
 ======================================
 
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
 Ignored Files:
 --------------
 The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
-* .gitignore
-* README.md
-* ic_launcher-web.png
-* proguard-project.txt
+* logo.png
+* pom.xml
+* psd/
+* psd/icon_hdpi.psd
+* psd/icon_mdpi.psd
+* psd/icon_xhdpi.psd
+* psd/logo.psd
+* psd/web.psd
+* screens.png
+* web.png
 
 Replaced Jars with Dependencies:
 --------------------------------
@@ -29,14 +44,23 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => app/src/main/AndroidManifest.xml
-* assets/ => app/src/main/assets/
-* libs/commons-io-2.4.jar => app/libs/commons-io-2.4.jar
-* libs/fastjson-1.1.34.android.jar => app/libs/fastjson-1.1.34.android.jar
-* libs/trove-3.0.3.jar => app/libs/trove-3.0.3.jar
-* lint.xml => app/lint.xml
-* res/ => app/src/main/res/
-* src/ => app/src/main/java/
+* AndroidManifest.xml => sample/src/main/AndroidManifest.xml
+* res/ => sample/src/main/res/
+* src/ => sample/src/main/java/
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
 
 Next Steps:
 -----------

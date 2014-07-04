@@ -1,1 +1,3 @@
-include ':app'
+include ':app', ':menudrawer', ':menudrawer-samples'
+include ':library'
+include ':sample'

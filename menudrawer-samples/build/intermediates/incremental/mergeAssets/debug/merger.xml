@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="4.4.0" >
+        <source path="/home/kevliu/mip/workspace/ngaclient/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/assets" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="/home/kevliu/mip/workspace/ngaclient/build/intermediates/exploded-aar/ngaclient/menudrawer/unspecified/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/kevliu/mip/workspace/ngaclient/menudrawer-samples/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/kevliu/mip/workspace/ngaclient/menudrawer-samples/src/debug/assets" />
+    </dataSet>
+
+</merger>

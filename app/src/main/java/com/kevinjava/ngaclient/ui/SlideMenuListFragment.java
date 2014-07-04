@@ -7,7 +7,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.kevinjava.ngaclient.R;
+import com.github.kevinjava.ngaclient.R;
 import com.kevinjava.ngaclient.constant.ForumConstant;
 
 public class SlideMenuListFragment extends NgaBaseFragment {

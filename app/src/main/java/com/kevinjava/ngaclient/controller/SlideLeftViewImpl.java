@@ -3,10 +3,9 @@ package com.kevinjava.ngaclient.controller;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
 
-import com.kevinjava.ngaclient.R;
-import com.kevinjava.ngaclient.constant.ToastType;
+import com.github.kevinjava.ngaclient.R;
 import com.kevinjava.ngaclient.factory.FragmentFactoryIF;
-import com.kevinjava.ngaclient.model.HttpRequestBean;
+import com.github.kevinjava.ngaclient.model.HttpRequestBean;
 import com.kevinjava.ngaclient.states.ResultStates;
 import com.kevinjava.ngaclient.ui.BaseActivity;
 
@@ -34,14 +33,9 @@ public class SlideLeftViewImpl implements SlideLeftViewControlIF {
 	}
 
 	@Override
-	public void update(HttpRequestBean bean, ForumDataModelIF dataModel) {
+	public void update(HttpRequestBean bean) {
 		
 	}
 
-	@Override
-	public void notifyToast(ResultStates states) {
-		// TODO Auto-generated method stub
-		
-	}
 
 }

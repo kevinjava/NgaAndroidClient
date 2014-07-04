@@ -5,16 +5,16 @@ import java.util.HashMap;
 
 import android.annotation.SuppressLint;
 
-import com.kevinjava.ngaclient.NgaApp;
-import com.kevinjava.ngaclient.listener.ForumObserver;
-import com.kevinjava.ngaclient.model.GroupModel;
-import com.kevinjava.ngaclient.model.HttpRequestBean;
-import com.kevinjava.ngaclient.model.ThreadData;
+import com.github.kevinjava.ngaclient.NgaApp;
+import com.github.kevinjava.ngaclient.listener.ForumObserver;
+import com.github.kevinjava.ngaclient.model.GroupModel;
+import com.github.kevinjava.ngaclient.model.HttpRequestBean;
+import com.github.kevinjava.ngaclient.model.ThreadData;
 import com.kevinjava.ngaclient.network.AsyncForumHttpResponseHandler;
-import com.kevinjava.ngaclient.network.NetworkManager;
+import com.github.kevinjava.ngaclient.manager.NetworkManager;
 import com.kevinjava.ngaclient.states.NotLoginState;
 import com.kevinjava.ngaclient.states.ResultStates;
-import com.kevinjava.ngaclient.util.NgaLog;
+import com.github.kevinjava.ngaclient.util.NgaLog;
 
 @SuppressLint("UseSparseArrays")
 public class ForumDataModel implements ForumDataModelIF {
@@ -78,31 +78,39 @@ public class ForumDataModel implements ForumDataModelIF {
 		}
 	}
 
-	@Override
+
 	public void add(NetRequestType type, ForumObserver observable) {
 		observers.put(type, observable);
 	}
 
-	@Override
 	public void remove(NetRequestType type, ForumObserver observable) {
 		if (observers.containsKey(type)) {
 			observers.remove(type);
 		}
 	}
 
-	@Override
-	public void notifyChange(HttpRequestBean bean) {
-		ForumObserver ob = observers.get(bean.getType());
-		if (ob != null) {
-			ob.update(bean, this);
-		}
+    @Override
+    public void add(ForumObserver observable) {
+
+    }
+
+    @Override
+    public void remove(ForumObserver observable) {
+
+    }
+
+    public void notifyChange(HttpRequestBean bean) {
+//		ForumObserver ob = observers.get(bean.getType());
+//		if (ob != null) {
+//			ob.update(bean, this);
+//		}
 	}
 	
 	public void notifyToast(HttpRequestBean bean, ResultStates state){
-		ForumObserver ob = observers.get(bean.getType());
-		if (ob != null) {
-			ob.notifyToast(state);
-		}
+//		ForumObserver ob = observers.get(bean.getType());
+//		if (ob != null) {
+//			ob.notifyToast(state);
+//		}
 	}
 
 	@Override

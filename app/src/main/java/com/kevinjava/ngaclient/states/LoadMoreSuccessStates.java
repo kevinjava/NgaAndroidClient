@@ -3,7 +3,7 @@ package com.kevinjava.ngaclient.states;
 import android.view.View;
 import android.widget.Toast;
 
-import com.kevinjava.ngaclient.NgaApp;
+import com.github.kevinjava.ngaclient.NgaApp;
 import com.kevinjava.ngaclient.ui.AnimationTextView;
 
 public class LoadMoreSuccessStates extends ResultStates {

@@ -1,0 +1,7 @@
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="refactor.com.github.kevinjava.ngaclient.MyActivity" />
+<!-- From: file:/home/kevliu/mip/workspace/ngaclient/app/src/main/res/layout/activity_my.xml -->

@@ -5,7 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.kevinjava.ngaclient.R;
+import com.github.kevinjava.ngaclient.R;
+
 
 public class SlideMenuRightNotLoginFragment extends NgaBaseFragment {
 

@@ -8,20 +8,19 @@ import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.util.Log;
 import android.widget.ArrayAdapter;
 
-import com.kevinjava.ngaclient.NgaApp;
-import com.kevinjava.ngaclient.R;
+import com.github.kevinjava.ngaclient.NgaApp;
+import com.github.kevinjava.ngaclient.R;
 import com.kevinjava.ngaclient.factory.FragmentFactoryIF;
-import com.kevinjava.ngaclient.model.GroupModel;
-import com.kevinjava.ngaclient.model.HttpRequestBean;
-import com.kevinjava.ngaclient.model.ThreadData;
+import com.github.kevinjava.ngaclient.model.GroupModel;
+import com.github.kevinjava.ngaclient.model.HttpRequestBean;
+import com.github.kevinjava.ngaclient.model.ThreadData;
 import com.kevinjava.ngaclient.states.ResultStates;
 import com.kevinjava.ngaclient.ui.BaseActivity;
 import com.kevinjava.ngaclient.ui.MainForumFragement;
 import com.kevinjava.ngaclient.ui.NgaBaseFragment;
-import com.kevinjava.ngaclient.util.NgaLog;
+import com.github.kevinjava.ngaclient.util.NgaLog;
 
 public class MainViewControlImpl implements MainViewControlIF,
 		OnNavigationListener {
@@ -89,32 +88,32 @@ public class MainViewControlImpl implements MainViewControlIF,
 	}
 
 	@Override
-	public void update(final HttpRequestBean bean, ForumDataModelIF dataModel) {
-		final ThreadData data = dataModel.getPageData(bean.getType(),
-				bean.getFid());
-		new Handler(Looper.getMainLooper()).post(new Runnable() {
-			public void run() {
-				if (!baseActivity.isFinishing()) {
-					if (mainForumFragement == null) {
-						FragmentTransaction t = baseActivity
-								.getFragmentManager().beginTransaction();
-						mainForumFragement = fragmentFactory
-								.getMainForumFragment(data);
-						((MainForumFragement) mainForumFragement).setIndex(
-								index, tabIndex, page);
-						t.replace(R.id.main_frame, mainForumFragement);
-						t.commit();
-					} else {
-						((MainForumFragement) mainForumFragement)
-								.enableFootView();
-						((MainForumFragement) mainForumFragement).setIndex(
-								index, tabIndex, page);
-						((MainForumFragement) mainForumFragement)
-								.setDataChange(data, bean);
-					}
-				}
-			}
-		});
+	public void update(final HttpRequestBean bean) {
+//		final ThreadData data = dataModel.getPageData(bean.getType(),
+//				bean.getFid());
+//		new Handler(Looper.getMainLooper()).post(new Runnable() {
+//			public void run() {
+//				if (!baseActivity.isFinishing()) {
+//					if (mainForumFragement == null) {
+//						FragmentTransaction t = baseActivity
+//								.getFragmentManager().beginTransaction();
+//						mainForumFragement = fragmentFactory
+//								.getMainForumFragment(data);
+//						((MainForumFragement) mainForumFragement).setIndex(
+//								index, tabIndex, page);
+//						t.replace(R.id.main_frame, mainForumFragement);
+//						t.commit();
+//					} else {
+//						((MainForumFragement) mainForumFragement)
+//								.enableFootView();
+//						((MainForumFragement) mainForumFragement).setIndex(
+//								index, tabIndex, page);
+//						((MainForumFragement) mainForumFragement)
+//								.setDataChange(data, bean);
+//					}
+//				}
+//			}
+//		});
 	}
 
 	@Override
@@ -149,9 +148,5 @@ public class MainViewControlImpl implements MainViewControlIF,
 		return isChange;
 	}
 
-	@Override
-	public void notifyToast(ResultStates states) {
-		((MainForumFragement) mainForumFragement).notifyToast(states);
-	}
 
 }

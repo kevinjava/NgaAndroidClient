@@ -3,7 +3,7 @@ package com.kevinjava.ngaclient.ui;
 import android.os.Bundle;
 import android.view.Menu;
 
-import com.kevinjava.ngaclient.R;
+import com.github.kevinjava.ngaclient.R;
 import com.kevinjava.ngaclient.controller.Controller;
 
 public class MainActivity extends BaseActivity {

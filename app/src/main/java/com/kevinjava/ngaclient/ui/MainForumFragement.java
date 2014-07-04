@@ -8,26 +8,26 @@ import me.maxwin.view.XListView.IXListViewListener;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 
-import com.kevinjava.ngaclient.R;
-import com.kevinjava.ngaclient.controller.MainViewControlImpl;
+import com.github.kevinjava.ngaclient.R;
+import com.github.kevinjava.ngaclient.ui.ThreadDetailActivity;
+import com.github.kevinjava.ngaclient.ui.adapter.MainForumListAdapter;
 import com.kevinjava.ngaclient.controller.NetRequestType;
-import com.kevinjava.ngaclient.model.ForumDataBean;
-import com.kevinjava.ngaclient.model.HttpRequestBean;
-import com.kevinjava.ngaclient.model.ThreadData;
+import com.github.kevinjava.ngaclient.model.ForumDataBean;
+import com.github.kevinjava.ngaclient.model.HttpRequestBean;
+import com.github.kevinjava.ngaclient.model.ThreadData;
 import com.kevinjava.ngaclient.states.LoadMoreSuccessStates;
 import com.kevinjava.ngaclient.states.NetworkErrorStatus;
 import com.kevinjava.ngaclient.states.NoNewThreadStates;
 import com.kevinjava.ngaclient.states.NotLoginState;
 import com.kevinjava.ngaclient.states.RefreshDataSuccessStates;
 import com.kevinjava.ngaclient.states.ResultStates;
-import com.kevinjava.ngaclient.util.NgaLog;
+import com.github.kevinjava.ngaclient.util.NgaLog;
 
 public class MainForumFragement extends NgaBaseFragment implements
 		IXListViewListener,OnItemClickListener {
@@ -37,7 +37,7 @@ public class MainForumFragement extends NgaBaseFragment implements
 	int index;
 	int tabIndex;
 	int page;
-	MainForumAdapter adapter;
+	MainForumListAdapter adapter;
 	AnimationTextView toastView;
 	int currentDataSize = 0;
 
@@ -77,7 +77,7 @@ public class MainForumFragement extends NgaBaseFragment implements
 
 	@Override
 	public void onViewCreated(View view, Bundle savedInstanceState) {
-		adapter = new MainForumAdapter(data, getActivity());
+		adapter = new MainForumListAdapter(data, getActivity());
 		listView.setAdapter(adapter);
 	}
 
@@ -95,7 +95,7 @@ public class MainForumFragement extends NgaBaseFragment implements
 			aList.retainAll(data.getRowList());
 			int count = data.getRowNum() - aList.size();
 			aList.clear();
-			adapter = new MainForumAdapter(data, getActivity());
+			adapter = new MainForumListAdapter(data, getActivity());
 			listView.setAdapter(adapter);
 			notifyToast(count == 0 ? new NoNewThreadStates()
 					: new RefreshDataSuccessStates(count));

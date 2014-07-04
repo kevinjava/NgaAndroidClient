@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
-import com.kevinjava.ngaclient.R;
+import com.github.kevinjava.ngaclient.R;
 
 public class SlidingActivityHelper {
 

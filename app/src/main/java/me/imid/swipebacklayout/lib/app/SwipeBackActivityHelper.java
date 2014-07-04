@@ -9,7 +9,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.kevinjava.ngaclient.R;
+import com.github.kevinjava.ngaclient.R;
 
 /**
  * @author Yrom

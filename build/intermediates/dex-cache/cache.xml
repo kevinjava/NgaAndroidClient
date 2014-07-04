@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/kevliu/mip/workspace/ngaclient/app/build/intermediates/pre-dexed/debug/classes-7e16d7c0fd2a01a0f349617acc1774cfb5471eb1.jar"
+        jar="/home/kevliu/mip/workspace/ngaclient/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e5f81129dfb3d02df80126512bc98278ed2bb40a"/>
+    <item
+        dex="/home/kevliu/mip/workspace/ngaclient/app/build/intermediates/pre-dexed/debug/commons-io-2.4-dbac8c6bd1bc329f348b1f5e7d01cf53a6e369ed.jar"
+        jar="/home/kevliu/mip/workspace/ngaclient/app/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad"/>
+    <item
+        dex="/home/kevliu/mip/workspace/ngaclient/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-33b4c08384b5b5760acde93d5720ff3a1322245a.jar"
+        jar="/home/kevliu/software/android-studio/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/home/kevliu/mip/workspace/ngaclient/app/build/intermediates/pre-dexed/debug/classes-ae97516cff3c45a9e2d175d2acb77e76f47d4c8f.jar"
+        jar="/home/kevliu/mip/workspace/ngaclient/build/intermediates/exploded-aar/ngaclient/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="987da267c14fdb56abbf0bea99aa981defa96214"/>
+    <item
+        dex="/home/kevliu/mip/workspace/ngaclient/app/build/intermediates/pre-dexed/debug/classes-7a164d65f9ebeae0f7b5037925eca69079ce1034.jar"
+        jar="/home/kevliu/mip/workspace/ngaclient/build/intermediates/exploded-aar/ngaclient/menudrawer/unspecified/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="63cc9777bc2ed0d7219259469d04ebbecc485771"/>
+    <item
+        dex="/home/kevliu/mip/workspace/ngaclient/app/build/intermediates/pre-dexed/debug/classes-086e982c8d2984438e9ee4696ee7992ffcb1bb88.jar"
+        jar="/home/kevliu/mip/workspace/ngaclient/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="/home/kevliu/mip/workspace/ngaclient/app/build/intermediates/pre-dexed/debug/fastjson-1.1.34.android-8149b1e49f0479a8a4a1641ca717757248ccd6fc.jar"
+        jar="/home/kevliu/mip/workspace/ngaclient/app/libs/fastjson-1.1.34.android.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="bef1d1224be099c387794bce1bdf81b38f37c6ce"/>
+    <item
+        dex="/home/kevliu/mip/workspace/ngaclient/app/build/intermediates/pre-dexed/debug/trove-3.0.3-f341beffe939b466b093ac84747f24692da0c21a.jar"
+        jar="/home/kevliu/mip/workspace/ngaclient/app/libs/trove-3.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="42ccaf4761f0dfdfa805c9e340d99a755907e2dd"/>
+
+</pre-dex-items>

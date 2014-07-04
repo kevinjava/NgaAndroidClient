@@ -2,10 +2,10 @@ apply plugin: 'android'
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "19.0.0"
+    buildToolsVersion "19.1.0"
 
     defaultConfig {
-        minSdkVersion 10
+        minSdkVersion 11
         targetSdkVersion 19
     }
 
@@ -31,8 +31,13 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:+'
     compile files('libs/trove-3.0.3.jar')
     compile files('libs/fastjson-1.1.34.android.jar')
     compile files('libs/commons-io-2.4.jar')
+    compile project(":menudrawer")
+    compile project(":library")
+
+    compile 'com.android.support:support-v4:+'
+    compile 'com.android.support:appcompat-v7:19.+'
+    compile 'com.google.android.gms:play-services:4.2.42'
 }

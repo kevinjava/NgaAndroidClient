@@ -3,9 +3,9 @@ package com.kevinjava.ngaclient.network;
 import org.apache.http.Header;
 
 import com.kevinjava.ngaclient.controller.ForumDataModelIF;
-import com.kevinjava.ngaclient.model.HttpRequestBean;
-import com.kevinjava.ngaclient.model.ThreadData;
-import com.kevinjava.ngaclient.util.ArticleUtil;
+import com.github.kevinjava.ngaclient.model.HttpRequestBean;
+import com.github.kevinjava.ngaclient.model.ThreadData;
+import com.github.kevinjava.ngaclient.util.ArticleUtil;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
 public class AsyncForumHttpResponseHandler extends AsyncHttpResponseHandler {

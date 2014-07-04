@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="19.1.0" >
+        <source path="/home/kevliu/mip/workspace/ngaclient/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/assets" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="/home/kevliu/mip/workspace/ngaclient/build/intermediates/exploded-aar/ngaclient/library/unspecified/assets" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="/home/kevliu/mip/workspace/ngaclient/build/intermediates/exploded-aar/ngaclient/menudrawer/unspecified/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets" >
+            <file
+                name="a36.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a36.gif" />
+            <file
+                name="a41.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a41.gif" />
+            <file
+                name="a37.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a37.gif" />
+            <file
+                name="a33.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a33.gif" />
+            <file
+                name="zhaiyin/71c4d2261a4c3e76fea0ab6a1355baf3.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/71c4d2261a4c3e76fea0ab6a1355baf3.gif" />
+            <file
+                name="zhaiyin/614d41768bfa6ccfd5f09b94d38350ae.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/614d41768bfa6ccfd5f09b94d38350ae.png" />
+            <file
+                name="zhaiyin/0844552367c35f2441e9cd311cbd1907.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/0844552367c35f2441e9cd311cbd1907.png" />
+            <file
+                name="zhaiyin/ac28b3cc5dbd85e96a09ee347a2e8f54.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/ac28b3cc5dbd85e96a09ee347a2e8f54.gif" />
+            <file
+                name="zhaiyin/b138b30c679345c54770f6a053e5f964.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/b138b30c679345c54770f6a053e5f964.png" />
+            <file
+                name="zhaiyin/8fb244b66fbe432e7c8057fabe25a92b.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/8fb244b66fbe432e7c8057fabe25a92b.gif" />
+            <file
+                name="zhaiyin/c1310062db8df7a975cbebd7c81e8061.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/c1310062db8df7a975cbebd7c81e8061.png" />
+            <file
+                name="zhaiyin/0bf39dd8614dd1d240eadc426038ac15.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/0bf39dd8614dd1d240eadc426038ac15.gif" />
+            <file
+                name="zhaiyin/9fc702d34f09d0e5a34a7e91826105ca.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/9fc702d34f09d0e5a34a7e91826105ca.gif" />
+            <file
+                name="zhaiyin/14549eb96bb1cc17b56ced51950b86ef.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/14549eb96bb1cc17b56ced51950b86ef.png" />
+            <file
+                name="zhaiyin/7765fb6834a209365dd14cad527f8540.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/7765fb6834a209365dd14cad527f8540.gif" />
+            <file
+                name="zhaiyin/c60351097d3766dcea25cdb4d73f5924.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/c60351097d3766dcea25cdb4d73f5924.gif" />
+            <file
+                name="zhaiyin/e475039c32aee23393517cffba66cdd8.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/e475039c32aee23393517cffba66cdd8.gif" />
+            <file
+                name="zhaiyin/55c354f3cf70e2c383cfad743c7e2a1e.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/55c354f3cf70e2c383cfad743c7e2a1e.gif" />
+            <file
+                name="zhaiyin/e27d85f225459a81190c7c4f88d8a059.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/e27d85f225459a81190c7c4f88d8a059.gif" />
+            <file
+                name="zhaiyin/a2e39025c4b1616529d25139db825c51.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/a2e39025c4b1616529d25139db825c51.gif" />
+            <file
+                name="zhaiyin/8b30432cf1e996e5d54da1ce73ddf412.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/8b30432cf1e996e5d54da1ce73ddf412.gif" />
+            <file
+                name="zhaiyin/cb995a1b73d741db306318c3c37101aa.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/cb995a1b73d741db306318c3c37101aa.gif" />
+            <file
+                name="zhaiyin/86c8a51602d075a094b99b12e990df3b.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/86c8a51602d075a094b99b12e990df3b.png" />
+            <file
+                name="zhaiyin/c7757f253cebf2b6852740dcdd2c2577.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/c7757f253cebf2b6852740dcdd2c2577.gif" />
+            <file
+                name="zhaiyin/f267d6e1e968b22829ae84def74383ee.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/zhaiyin/f267d6e1e968b22829ae84def74383ee.gif" />
+            <file
+                name="a40.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a40.gif" />
+            <file
+                name="a4.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a4.gif" />
+            <file
+                name="acniang/-47218_5052bc7a0ee49.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bc7a0ee49.png" />
+            <file
+                name="acniang/-47218_5052bca81a77f.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bca81a77f.png" />
+            <file
+                name="acniang/-1324875_51339502d110b.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_51339502d110b.gif" />
+            <file
+                name="acniang/-1324875_50d841b488bcd.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50d841b488bcd.png" />
+            <file
+                name="acniang/-1324875_50c153ad5bca3.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50c153ad5bca3.png" />
+            <file
+                name="acniang/-1324875_50d841a63a673.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50d841a63a673.png" />
+            <file
+                name="acniang/-1324875_513394f8d0005.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_513394f8d0005.png" />
+            <file
+                name="acniang/-47218_5052c0f6da079.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052c0f6da079.png" />
+            <file
+                name="acniang/-47218_5052c10d1f08c.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052c10d1f08c.png" />
+            <file
+                name="acniang/-1324875_513394ffb78e2.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_513394ffb78e2.gif" />
+            <file
+                name="acniang/-47218_5052bce7cf096.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bce7cf096.png" />
+            <file
+                name="acniang/-1324875_50d841a969837.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50d841a969837.png" />
+            <file
+                name="acniang/-1324875_510a32e41a1c9.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_510a32e41a1c9.png" />
+            <file
+                name="acniang/-1324875_50fe2511c5254.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50fe2511c5254.png" />
+            <file
+                name="acniang/-47218_5052bd27520ef.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bd27520ef.png" />
+            <file
+                name="acniang/-47218_5052bc5579c24.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bc5579c24.png" />
+            <file
+                name="acniang/-1324875_50d841ae691f0.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50d841ae691f0.png" />
+            <file
+                name="acniang/-47218_5052c112b3b1b.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052c112b3b1b.png" />
+            <file
+                name="acniang/-47218_5052c1156ec1c.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052c1156ec1c.png" />
+            <file
+                name="acniang/-1324875_50fe25088e9cb.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50fe25088e9cb.png" />
+            <file
+                name="acniang/-47218_5052bcdd279bc.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bcdd279bc.png" />
+            <file
+                name="acniang/-1324875_5133950d008f9.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_5133950d008f9.png" />
+            <file
+                name="acniang/-47218_5052bc4f51be7.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bc4f51be7.png" />
+            <file
+                name="acniang/-1324875_50c153963eb38.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50c153963eb38.png" />
+            <file
+                name="acniang/-47218_5052bceb823da.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bceb823da.png" />
+            <file
+                name="acniang/-47218_5052bcb6e96d1.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bcb6e96d1.png" />
+            <file
+                name="acniang/-47218_5052bd40397e2.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bd40397e2.png" />
+            <file
+                name="acniang/-47218_5052bcee3d6b3.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bcee3d6b3.png" />
+            <file
+                name="acniang/-47218_5052bc4cc6331.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bc4cc6331.png" />
+            <file
+                name="acniang/-1324875_50e597e645550.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50e597e645550.png" />
+            <file
+                name="acniang/-1324875_50fe2505d26ed.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50fe2505d26ed.png" />
+            <file
+                name="acniang/-47218_5052c10aa0303.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052c10aa0303.png" />
+            <file
+                name="acniang/-1324875_50e597f190a11.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50e597f190a11.png" />
+            <file
+                name="acniang/-47218_5052c104b8e27.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052c104b8e27.png" />
+            <file
+                name="acniang/-47218_5052bd2497822.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bd2497822.png" />
+            <file
+                name="acniang/-1324875_50d841b17b503.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50d841b17b503.png" />
+            <file
+                name="acniang/-47218_5052bd2fa0790.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bd2fa0790.png" />
+            <file
+                name="acniang/-47218_5052bd2a0d49a.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bd2a0d49a.png" />
+            <file
+                name="acniang/-1324875_50fe2515354fd.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50fe2515354fd.png" />
+            <file
+                name="acniang/-47218_5052bcdfd9c69.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bcdfd9c69.png" />
+            <file
+                name="acniang/-47218_5052bcbe35760.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bcbe35760.png" />
+            <file
+                name="acniang/-1324875_50d84199dbdb2.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50d84199dbdb2.png" />
+            <file
+                name="acniang/-47218_5052bd3b4b3bd.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bd3b4b3bd.png" />
+            <file
+                name="acniang/-1324875_510a32e14f324.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_510a32e14f324.png" />
+            <file
+                name="acniang/-1324875_50e597e9d6319.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50e597e9d6319.png" />
+            <file
+                name="acniang/-1324875_50d841ba3efd0.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50d841ba3efd0.png" />
+            <file
+                name="acniang/-1324875_50e597e217236.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50e597e217236.png" />
+            <file
+                name="acniang/-1324875_50d841a1676ab.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50d841a1676ab.png" />
+            <file
+                name="acniang/-47218_5052bc80140e3.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bc80140e3.png" />
+            <file
+                name="acniang/-47218_5052bca55cb6e.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bca55cb6e.png" />
+            <file
+                name="acniang/-1324875_51339509ac4b4.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_51339509ac4b4.png" />
+            <file
+                name="acniang/-1324875_51339506d9c37.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_51339506d9c37.png" />
+            <file
+                name="acniang/-1324875_513394f5c39c4.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_513394f5c39c4.png" />
+            <file
+                name="acniang/-1324875_50fe25031f595.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50fe25031f595.png" />
+            <file
+                name="acniang/-1324875_50e597cedefb0.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50e597cedefb0.png" />
+            <file
+                name="acniang/-1324875_50fe250b9488c.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50fe250b9488c.png" />
+            <file
+                name="acniang/-1324875_510a32ea8cbd2.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_510a32ea8cbd2.png" />
+            <file
+                name="acniang/-47218_5052bcf68ddc2.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bcf68ddc2.png" />
+            <file
+                name="acniang/-47218_5052bd2d0a416.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bd2d0a416.png" />
+            <file
+                name="acniang/-1324875_510a32ed356aa.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_510a32ed356aa.png" />
+            <file
+                name="acniang/-47218_5052c1076f119.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052c1076f119.png" />
+            <file
+                name="acniang/-47218_5052bd330dfad.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bd330dfad.png" />
+            <file
+                name="acniang/-1324875_50fe250eca35e.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50fe250eca35e.png" />
+            <file
+                name="acniang/-1324875_513394fbc54e1.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_513394fbc54e1.gif" />
+            <file
+                name="acniang/-47218_5052c1101747c.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052c1101747c.png" />
+            <file
+                name="acniang/-47218_5052bc8638067.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bc8638067.png" />
+            <file
+                name="acniang/-1324875_50d8419e3e516.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50d8419e3e516.png" />
+            <file
+                name="acniang/-47218_5052bc587c6f9.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bc587c6f9.png" />
+            <file
+                name="acniang/-47218_5052bcf0ba2db.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bcf0ba2db.png" />
+            <file
+                name="acniang/-47218_5052bcba15fcf.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bcba15fcf.png" />
+            <file
+                name="acniang/-1324875_50e597f5ce78d.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50e597f5ce78d.png" />
+            <file
+                name="acniang/-47218_5052bce4f2963.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bce4f2963.png" />
+            <file
+                name="acniang/-47218_5052bcb093870.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bcb093870.png" />
+            <file
+                name="acniang/-47218_5052bcf37c4c9.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bcf37c4c9.png" />
+            <file
+                name="acniang/-47218_5052bc521c04b.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bc521c04b.png" />
+            <file
+                name="acniang/-47218_5052c0f41d155.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052c0f41d155.png" />
+            <file
+                name="acniang/-47218_5052c10182a21.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052c10182a21.png" />
+            <file
+                name="acniang/-47218_5052bd38bdf43.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bd38bdf43.png" />
+            <file
+                name="acniang/-47218_5052bc7d91913.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bc7d91913.png" />
+            <file
+                name="acniang/-1324875_510a335b9300d.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_510a335b9300d.png" />
+            <file
+                name="acniang/-1324875_50e597c090c58.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50e597c090c58.png" />
+            <file
+                name="acniang/-1324875_50e597edf1a10.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50e597edf1a10.png" />
+            <file
+                name="acniang/-47218_5052bcb3b8944.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bcb3b8944.png" />
+            <file
+                name="acniang/-47218_5052bc835856c.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bc835856c.png" />
+            <file
+                name="acniang/-1324875_50fe25191c370.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50fe25191c370.png" />
+            <file
+                name="acniang/-1324875_50fe24fff3ca8.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50fe24fff3ca8.png" />
+            <file
+                name="acniang/-1324875_50c15374cd8f6.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50c15374cd8f6.png" />
+            <file
+                name="acniang/-1324875_50c1537cf22c8.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50c1537cf22c8.png" />
+            <file
+                name="acniang/-47218_5052bcad49530.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bcad49530.png" />
+            <file
+                name="acniang/-1324875_50d841b7282dd.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_50d841b7282dd.png" />
+            <file
+                name="acniang/-1324875_510a32f4bdcab.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_510a32f4bdcab.png" />
+            <file
+                name="acniang/-47218_5052bca2a2f43.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bca2a2f43.png" />
+            <file
+                name="acniang/-47218_5052bcaaacb45.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bcaaacb45.png" />
+            <file
+                name="acniang/-47218_5052bd35aec58.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bd35aec58.png" />
+            <file
+                name="acniang/-1324875_510a32f1a0345.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-1324875_510a32f1a0345.png" />
+            <file
+                name="acniang/-47218_5052bce27ab4d.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/acniang/-47218_5052bce27ab4d.png" />
+            <file
+                name="a1.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a1.gif" />
+            <file
+                name="a39.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a39.gif" />
+            <file
+                name="flash.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/flash.png" />
+            <file
+                name="a26.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a26.gif" />
+            <file
+                name="a25.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a25.gif" />
+            <file
+                name="a35.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a35.gif" />
+            <file
+                name="a32.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a32.gif" />
+            <file
+                name="a34.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a34.gif" />
+            <file
+                name="a8.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a8.gif" />
+            <file
+                name="a27.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a27.gif" />
+            <file
+                name="yangcongtou/dda125a8417a57236c8ee668544f1641.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/dda125a8417a57236c8ee668544f1641.gif" />
+            <file
+                name="yangcongtou/4eb01bce60fd876ccd85e846bfbc8f59.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/4eb01bce60fd876ccd85e846bfbc8f59.gif" />
+            <file
+                name="yangcongtou/5cc711746112411f1b007c60c6997a42.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/5cc711746112411f1b007c60c6997a42.gif" />
+            <file
+                name="yangcongtou/13ba79897ec11f717b7529dda7e1ea28.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/13ba79897ec11f717b7529dda7e1ea28.gif" />
+            <file
+                name="yangcongtou/d4f2fe179a03eb79b66110737b54c33b.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/d4f2fe179a03eb79b66110737b54c33b.gif" />
+            <file
+                name="yangcongtou/f38827dd474df2382616daddc1f0631e.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/f38827dd474df2382616daddc1f0631e.gif" />
+            <file
+                name="yangcongtou/1d38a16e512ffbed023fc99dcf255d70.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/1d38a16e512ffbed023fc99dcf255d70.gif" />
+            <file
+                name="yangcongtou/125447028f381c52147ecbfb1546ef97.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/125447028f381c52147ecbfb1546ef97.gif" />
+            <file
+                name="yangcongtou/ece65081c7cdf5fd971381c7828463ac.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/ece65081c7cdf5fd971381c7828463ac.gif" />
+            <file
+                name="yangcongtou/517b1df1fec94d264851e5ab4c5e55ab.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/517b1df1fec94d264851e5ab4c5e55ab.gif" />
+            <file
+                name="yangcongtou/16e50694a733d4e14b1c22c527e2fc1c.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/16e50694a733d4e14b1c22c527e2fc1c.gif" />
+            <file
+                name="yangcongtou/c02866240926eb881a99c73586c78ee9.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/c02866240926eb881a99c73586c78ee9.gif" />
+            <file
+                name="yangcongtou/9979946f3249c995fed0ef34d4dd4dfe.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/9979946f3249c995fed0ef34d4dd4dfe.gif" />
+            <file
+                name="yangcongtou/55b461153cdfb0dabecb5ae032584552.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/55b461153cdfb0dabecb5ae032584552.gif" />
+            <file
+                name="yangcongtou/8e2ffc2a03b5750044f1075e31c3a601.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/8e2ffc2a03b5750044f1075e31c3a601.gif" />
+            <file
+                name="yangcongtou/46d7d3811d7cc9569330d6742679d34f.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/46d7d3811d7cc9569330d6742679d34f.gif" />
+            <file
+                name="yangcongtou/b0f398f7319a673fdaeb9598f8f099f1.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/b0f398f7319a673fdaeb9598f8f099f1.gif" />
+            <file
+                name="yangcongtou/a0d89a475c28ac91649d0ddf9e2a0758.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/a0d89a475c28ac91649d0ddf9e2a0758.gif" />
+            <file
+                name="yangcongtou/859165bb9e49af6237766dd1b1241f12.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/859165bb9e49af6237766dd1b1241f12.gif" />
+            <file
+                name="yangcongtou/b66cfd9c713d043bf70be194285cc9fa.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/b66cfd9c713d043bf70be194285cc9fa.gif" />
+            <file
+                name="yangcongtou/410f18f0418f9c9fcf64f3fc2d2873cc.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/410f18f0418f9c9fcf64f3fc2d2873cc.gif" />
+            <file
+                name="yangcongtou/918721bf6b646ceeb8b4b2871ad99ac4.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/918721bf6b646ceeb8b4b2871ad99ac4.gif" />
+            <file
+                name="yangcongtou/6663253a32c24702221e04fc15941152.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/6663253a32c24702221e04fc15941152.gif" />
+            <file
+                name="yangcongtou/eba571d0399258e9ff449bf5f3d294c3.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/eba571d0399258e9ff449bf5f3d294c3.gif" />
+            <file
+                name="yangcongtou/6e18c8910c2153a14bb1f03739d26984.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/6e18c8910c2153a14bb1f03739d26984.gif" />
+            <file
+                name="yangcongtou/fb9726e183bcee0cc59084aaa7679579.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/fb9726e183bcee0cc59084aaa7679579.gif" />
+            <file
+                name="yangcongtou/7ac1128bc4f7c4f288a96e6afa97e6d1.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/7ac1128bc4f7c4f288a96e6afa97e6d1.gif" />
+            <file
+                name="yangcongtou/e622bc29c6dd1bc9dd62908f96f6ed83.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/e622bc29c6dd1bc9dd62908f96f6ed83.gif" />
+            <file
+                name="yangcongtou/0bdef507f13f063d33dee730b3a8495e.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/0bdef507f13f063d33dee730b3a8495e.gif" />
+            <file
+                name="yangcongtou/02395d95a9562a390720a3834ff78a9b.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/02395d95a9562a390720a3834ff78a9b.gif" />
+            <file
+                name="yangcongtou/81a5c30f0ddeca2d5055b1859606df97.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/81a5c30f0ddeca2d5055b1859606df97.gif" />
+            <file
+                name="yangcongtou/efe0a1df7f30efe2b37c316cc758821e.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/efe0a1df7f30efe2b37c316cc758821e.gif" />
+            <file
+                name="yangcongtou/0562892d8c98f56bd209905365f4744f.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/0562892d8c98f56bd209905365f4744f.gif" />
+            <file
+                name="yangcongtou/6cc1214e9f305973b930dc43e2af5cd2.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/6cc1214e9f305973b930dc43e2af5cd2.gif" />
+            <file
+                name="yangcongtou/3e0f7254ad8389a41c81d68d2c2b440a.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/3e0f7254ad8389a41c81d68d2c2b440a.gif" />
+            <file
+                name="yangcongtou/8ecd34c43a627c7e7d910d8d611f7f1e.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/8ecd34c43a627c7e7d910d8d611f7f1e.gif" />
+            <file
+                name="yangcongtou/c7d66ddf07ffb3bbf7e7aed5e21632dd.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/c7d66ddf07ffb3bbf7e7aed5e21632dd.gif" />
+            <file
+                name="yangcongtou/a2da6616a08dc4f31d32ee8a7c1bd6a2.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/a2da6616a08dc4f31d32ee8a7c1bd6a2.gif" />
+            <file
+                name="yangcongtou/ca52a9f4617bbc39fdb84de519e17b37.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/ca52a9f4617bbc39fdb84de519e17b37.gif" />
+            <file
+                name="yangcongtou/0d1ab68e99c319ee8d8f4f1f444a3005.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/0d1ab68e99c319ee8d8f4f1f444a3005.gif" />
+            <file
+                name="yangcongtou/fab5cb3ae1ecfd4269a5e121c7ada6fc.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/fab5cb3ae1ecfd4269a5e121c7ada6fc.gif" />
+            <file
+                name="yangcongtou/39214e07051856d10c792338966ebd85.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/39214e07051856d10c792338966ebd85.gif" />
+            <file
+                name="yangcongtou/360af520e2ab1bcbc0a1ca7cba5c114a.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/360af520e2ab1bcbc0a1ca7cba5c114a.gif" />
+            <file
+                name="yangcongtou/609a083bd2b92343d04490003700e9a5.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/609a083bd2b92343d04490003700e9a5.gif" />
+            <file
+                name="yangcongtou/58f2e9793ffee208f3d7a81817402792.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/58f2e9793ffee208f3d7a81817402792.gif" />
+            <file
+                name="yangcongtou/4f24cef2c142d0eae2b257299d693f91.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/4f24cef2c142d0eae2b257299d693f91.gif" />
+            <file
+                name="yangcongtou/b24b6877bdd5d917aad8c666cd74c192.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/b24b6877bdd5d917aad8c666cd74c192.gif" />
+            <file
+                name="yangcongtou/b3e128e016d14757dd671d38faf83f1f.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/b3e128e016d14757dd671d38faf83f1f.gif" />
+            <file
+                name="yangcongtou/05089eed6ba7c039ba4d170399d05175.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/05089eed6ba7c039ba4d170399d05175.gif" />
+            <file
+                name="yangcongtou/f91b805e1f5ba581fec197a0d37700f5.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/f91b805e1f5ba581fec197a0d37700f5.gif" />
+            <file
+                name="yangcongtou/23fde534f4aa05706053146325225e3c.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/23fde534f4aa05706053146325225e3c.gif" />
+            <file
+                name="yangcongtou/ad4801b5fdc354ab14fc7e5c45703c9c.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/ad4801b5fdc354ab14fc7e5c45703c9c.gif" />
+            <file
+                name="yangcongtou/754daf85416056de7994b313e547416b.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/754daf85416056de7994b313e547416b.gif" />
+            <file
+                name="yangcongtou/722d1751bd74ea166e8542249308d0c8.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/722d1751bd74ea166e8542249308d0c8.gif" />
+            <file
+                name="yangcongtou/626821eb753d621eaf1ce05fd373e5ac.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/626821eb753d621eaf1ce05fd373e5ac.gif" />
+            <file
+                name="yangcongtou/371a5dcdfed3c4b87e71558555ce8036.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/371a5dcdfed3c4b87e71558555ce8036.gif" />
+            <file
+                name="yangcongtou/7ed02eb56d178ab1560a5008415baa1f.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/7ed02eb56d178ab1560a5008415baa1f.gif" />
+            <file
+                name="yangcongtou/01858ad018f38a083b3aa1193788ad54.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/01858ad018f38a083b3aa1193788ad54.gif" />
+            <file
+                name="yangcongtou/c8e42af6e8f78fb4ca834692dd201dbc.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/c8e42af6e8f78fb4ca834692dd201dbc.gif" />
+            <file
+                name="yangcongtou/379cc8a35c65bffddbe8360313b0308c.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/379cc8a35c65bffddbe8360313b0308c.gif" />
+            <file
+                name="yangcongtou/b2b031d1d65d80e8a4a53347f3449f8b.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/b2b031d1d65d80e8a4a53347f3449f8b.gif" />
+            <file
+                name="yangcongtou/203b6aadea70f7bfeecd190447443474.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/203b6aadea70f7bfeecd190447443474.gif" />
+            <file
+                name="yangcongtou/5a6fc407afe71590a7ddff6c3efab6b5.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/5a6fc407afe71590a7ddff6c3efab6b5.gif" />
+            <file
+                name="yangcongtou/2fcd15b411018745d2eb0403cfeec579.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/2fcd15b411018745d2eb0403cfeec579.gif" />
+            <file
+                name="yangcongtou/454b128c938ba943d83ee77bae0a6e94.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/454b128c938ba943d83ee77bae0a6e94.gif" />
+            <file
+                name="yangcongtou/46b3a1a3bc1bd9fb688e255fa7e9b86d.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/46b3a1a3bc1bd9fb688e255fa7e9b86d.gif" />
+            <file
+                name="yangcongtou/646adb1f2e3e8d3c1c4c085dcae0553e.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/646adb1f2e3e8d3c1c4c085dcae0553e.gif" />
+            <file
+                name="yangcongtou/0efdab411472b2e6c4713dbfcbbf6a90.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/0efdab411472b2e6c4713dbfcbbf6a90.gif" />
+            <file
+                name="yangcongtou/5e66b3021dfafdb31893e10598d1aa21.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/5e66b3021dfafdb31893e10598d1aa21.gif" />
+            <file
+                name="yangcongtou/d1838578aa71bb964d097163a87552c2.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/d1838578aa71bb964d097163a87552c2.gif" />
+            <file
+                name="yangcongtou/972f0ef9bff622cbcfb89657d8eebf80.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/972f0ef9bff622cbcfb89657d8eebf80.gif" />
+            <file
+                name="yangcongtou/3163e1167ec7a623fe517fbc3054e43a.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/3163e1167ec7a623fe517fbc3054e43a.gif" />
+            <file
+                name="yangcongtou/9ba9bee0b1a0b6fdeb2298023b136d24.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/9ba9bee0b1a0b6fdeb2298023b136d24.gif" />
+            <file
+                name="yangcongtou/2062c2ebf2046d04f85cbe6bc22e4843.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/2062c2ebf2046d04f85cbe6bc22e4843.gif" />
+            <file
+                name="yangcongtou/0955538fb820b45be4144316e254712d.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/0955538fb820b45be4144316e254712d.gif" />
+            <file
+                name="yangcongtou/65dccd1dc4ff43a5e5d703ce28a1ba9a.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/65dccd1dc4ff43a5e5d703ce28a1ba9a.gif" />
+            <file
+                name="yangcongtou/21b5d40c93e77202b6fddd6fcb58c716.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/21b5d40c93e77202b6fddd6fcb58c716.gif" />
+            <file
+                name="yangcongtou/8cc46510d9a98a188eed862b4d7d04cc.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/8cc46510d9a98a188eed862b4d7d04cc.gif" />
+            <file
+                name="yangcongtou/142398b4df954afd4190a20be99b8203.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/142398b4df954afd4190a20be99b8203.gif" />
+            <file
+                name="yangcongtou/9a5b5a5528a21fa695f303bbfb5fc3ac.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/yangcongtou/9a5b5a5528a21fa695f303bbfb5fc3ac.gif" />
+            <file
+                name="a30.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a30.gif" />
+            <file
+                name="dayanmao/86fbc79540b5b76225d910d7324e6dcc.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/86fbc79540b5b76225d910d7324e6dcc.gif" />
+            <file
+                name="dayanmao/7dc7db2cbc60e4b69e5616f344f81de4.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/7dc7db2cbc60e4b69e5616f344f81de4.gif" />
+            <file
+                name="dayanmao/2afc2006a6a817ec1dd577956450c72c.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/2afc2006a6a817ec1dd577956450c72c.gif" />
+            <file
+                name="dayanmao/8379f982088ed8ddd2c9d19a67cb5c73.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/8379f982088ed8ddd2c9d19a67cb5c73.gif" />
+            <file
+                name="dayanmao/806b7c7e3e036d6373605e88ed2e3370.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/806b7c7e3e036d6373605e88ed2e3370.gif" />
+            <file
+                name="dayanmao/96dad75c7889dddb47f03058437412f0.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/96dad75c7889dddb47f03058437412f0.gif" />
+            <file
+                name="dayanmao/78aa7a031f2f880692ba41047cf0efd4.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/78aa7a031f2f880692ba41047cf0efd4.gif" />
+            <file
+                name="dayanmao/0aca3c8ecb51090c14ee9a3e3330e293.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/0aca3c8ecb51090c14ee9a3e3330e293.gif" />
+            <file
+                name="dayanmao/e84f7a8605042643c0a67462187b0e92.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/e84f7a8605042643c0a67462187b0e92.gif" />
+            <file
+                name="dayanmao/08cb2c1a86e85f77824510e31266dca6.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/08cb2c1a86e85f77824510e31266dca6.gif" />
+            <file
+                name="dayanmao/e979814adb039319e185c0693f70ac19.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/e979814adb039319e185c0693f70ac19.gif" />
+            <file
+                name="dayanmao/9a530ab7c625abf240a4683622c8835c.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/9a530ab7c625abf240a4683622c8835c.gif" />
+            <file
+                name="dayanmao/ab7d2da8db56b8477031b089c94c2042.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/ab7d2da8db56b8477031b089c94c2042.gif" />
+            <file
+                name="dayanmao/c71b0666ae7360fb57ca7e4746d77180.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/c71b0666ae7360fb57ca7e4746d77180.gif" />
+            <file
+                name="dayanmao/54bb6b6331125af57b67884117d202c7.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/54bb6b6331125af57b67884117d202c7.gif" />
+            <file
+                name="dayanmao/6b6fb853e8ec2c96ad5fab40610f27a7.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/6b6fb853e8ec2c96ad5fab40610f27a7.gif" />
+            <file
+                name="dayanmao/bbf7db0849de605351c2493db50e0043.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/bbf7db0849de605351c2493db50e0043.gif" />
+            <file
+                name="dayanmao/3d125f40932a525e0a0049a675c70776.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/3d125f40932a525e0a0049a675c70776.gif" />
+            <file
+                name="dayanmao/f88ac0bc61e839d578269e193710a926.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/f88ac0bc61e839d578269e193710a926.gif" />
+            <file
+                name="dayanmao/60f602c812c5d9b0f88f5b78a89e914e.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/60f602c812c5d9b0f88f5b78a89e914e.gif" />
+            <file
+                name="dayanmao/fd4d129f46c9d45265fa548aae1e1a46.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/fd4d129f46c9d45265fa548aae1e1a46.gif" />
+            <file
+                name="dayanmao/83eddfc33830e9325fc69fc60e782861.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/83eddfc33830e9325fc69fc60e782861.gif" />
+            <file
+                name="dayanmao/7b2bcfa3c2a30c32915fbd5d9f746156.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/7b2bcfa3c2a30c32915fbd5d9f746156.gif" />
+            <file
+                name="dayanmao/65a10d35bae4a645c4e1fdd0c4a72b7c.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/65a10d35bae4a645c4e1fdd0c4a72b7c.jpg" />
+            <file
+                name="dayanmao/103cbe0ee09a2dcbe476c5b48056c3b4.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/103cbe0ee09a2dcbe476c5b48056c3b4.gif" />
+            <file
+                name="dayanmao/88f65c29aab14a27613e64b77a1ce787.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/88f65c29aab14a27613e64b77a1ce787.gif" />
+            <file
+                name="dayanmao/b8e7f7ed55260626d179c375c709abc5.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/dayanmao/b8e7f7ed55260626d179c375c709abc5.gif" />
+            <file
+                name="baozou/565a693819be4f62e7ee36b02c69ef70.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/565a693819be4f62e7ee36b02c69ef70.png" />
+            <file
+                name="baozou/-7_501681873b6a9.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_501681873b6a9.jpg" />
+            <file
+                name="baozou/-7_501659fb92e28.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_501659fb92e28.jpg" />
+            <file
+                name="baozou/-7_5003ceb826aa6.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_5003ceb826aa6.gif" />
+            <file
+                name="baozou/-1324875_50d8593397258.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-1324875_50d8593397258.jpg" />
+            <file
+                name="baozou/-47218_505017f85b1b1.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_505017f85b1b1.jpg" />
+            <file
+                name="baozou/243ea3433f225fe948dbb8c1c3462a70.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/243ea3433f225fe948dbb8c1c3462a70.png" />
+            <file
+                name="baozou/159086d6643b2dd47809ae5311321e48.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/159086d6643b2dd47809ae5311321e48.jpg" />
+            <file
+                name="baozou/-7_4fa52efee430b.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52efee430b.gif" />
+            <file
+                name="baozou/-47218_505017b484549.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_505017b484549.jpg" />
+            <file
+                name="baozou/4a0809e874350c2b76b251a98569df6a.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/4a0809e874350c2b76b251a98569df6a.png" />
+            <file
+                name="baozou/a43dd40a03c7726f56960123361021aa.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/a43dd40a03c7726f56960123361021aa.png" />
+            <file
+                name="baozou/-7_501686d6c3bff.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_501686d6c3bff.jpg" />
+            <file
+                name="baozou/b712d971a5fc63afaaed6354d91e376c.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/b712d971a5fc63afaaed6354d91e376c.png" />
+            <file
+                name="baozou/-47218_505017b09a8c3.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_505017b09a8c3.jpg" />
+            <file
+                name="baozou/-47218_5045aeafd7372.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_5045aeafd7372.jpg" />
+            <file
+                name="baozou/-47218_505017ef537ea.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_505017ef537ea.jpg" />
+            <file
+                name="baozou/dd44d413faa2a2e2505837c5fefc4f21.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/dd44d413faa2a2e2505837c5fefc4f21.png" />
+            <file
+                name="baozou/-7_501659f46c92c.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_501659f46c92c.jpg" />
+            <file
+                name="baozou/e70ae1e7346619b4b7266dbd02b73ca7.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/e70ae1e7346619b4b7266dbd02b73ca7.png" />
+            <file
+                name="baozou/f523d833d988bd687d9205c8462cd69a.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/f523d833d988bd687d9205c8462cd69a.jpg" />
+            <file
+                name="baozou/-7_4fa52ef8788ab.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52ef8788ab.gif" />
+            <file
+                name="baozou/-7_4fa52ee2f2dbe.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52ee2f2dbe.gif" />
+            <file
+                name="baozou/-7_4fa52ef0e1409.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52ef0e1409.gif" />
+            <file
+                name="baozou/-7_502a289ca1256.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_502a289ca1256.jpg" />
+            <file
+                name="baozou/ccd7cbbb06e8cfa797a1070a82953b4b.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/ccd7cbbb06e8cfa797a1070a82953b4b.png" />
+            <file
+                name="baozou/-7_4fa52eddcb513.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52eddcb513.gif" />
+            <file
+                name="baozou/74bdbd3f12fbfb7cb18c5e967fec3ad3.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/74bdbd3f12fbfb7cb18c5e967fec3ad3.png" />
+            <file
+                name="baozou/-47218_5051537c6f0a7.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_5051537c6f0a7.jpg" />
+            <file
+                name="baozou/-7_501686cde01cb.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_501686cde01cb.jpg" />
+            <file
+                name="baozou/-7_4fa52efb178ce.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52efb178ce.gif" />
+            <file
+                name="baozou/-7_4fffaa9d30dac.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fffaa9d30dac.png" />
+            <file
+                name="baozou/-47218_505017f2f26a0.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_505017f2f26a0.jpg" />
+            <file
+                name="baozou/791175d2f3c7005753c26956e99a9470.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/791175d2f3c7005753c26956e99a9470.png" />
+            <file
+                name="baozou/08eee2e216d922b507eefb3318c64c77.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/08eee2e216d922b507eefb3318c64c77.png" />
+            <file
+                name="baozou/b8169c2bbbe4665b4bf6f586a6ea2717.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/b8169c2bbbe4665b4bf6f586a6ea2717.png" />
+            <file
+                name="baozou/-7_4fffa4c03caa1.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fffa4c03caa1.png" />
+            <file
+                name="baozou/9f097ebcdede8616e69b8966328cf52a.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/9f097ebcdede8616e69b8966328cf52a.jpg" />
+            <file
+                name="baozou/9696572c3280071e7d27fb15f072ed94.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/9696572c3280071e7d27fb15f072ed94.png" />
+            <file
+                name="baozou/-7_5016ae1989baf.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_5016ae1989baf.jpg" />
+            <file
+                name="baozou/a0315c1460ff654da9b6e56ac34b5fac.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/a0315c1460ff654da9b6e56ac34b5fac.png" />
+            <file
+                name="baozou/-7_4fffbda6559fd.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fffbda6559fd.png" />
+            <file
+                name="baozou/a055d2ae7c3700d9dcfb3307dd954e02.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/a055d2ae7c3700d9dcfb3307dd954e02.png" />
+            <file
+                name="baozou/31a3f5da298b101a4fc020ed8cda451b.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/31a3f5da298b101a4fc020ed8cda451b.png" />
+            <file
+                name="baozou/890b262fcc2834e79037cfbdde177bac.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/890b262fcc2834e79037cfbdde177bac.png" />
+            <file
+                name="baozou/64e25c177c3a3761f715a3893588a093.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/64e25c177c3a3761f715a3893588a093.jpg" />
+            <file
+                name="baozou/-47218_50515379d93e2.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_50515379d93e2.jpg" />
+            <file
+                name="baozou/f9cc7ce52e6381d468a511b88d34d70c.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/f9cc7ce52e6381d468a511b88d34d70c.png" />
+            <file
+                name="baozou/-7_4fa52f0a45e4b.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52f0a45e4b.gif" />
+            <file
+                name="baozou/f0bc17b405346eb419e15d9a4078cc1a.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/f0bc17b405346eb419e15d9a4078cc1a.jpg" />
+            <file
+                name="baozou/-7_5016817445bdb.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_5016817445bdb.jpg" />
+            <file
+                name="baozou/-7_4fa52ed6d3dc1.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52ed6d3dc1.gif" />
+            <file
+                name="baozou/-7_4fa52ef46b530.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52ef46b530.gif" />
+            <file
+                name="baozou/-7_4fffa1319197d.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fffa1319197d.png" />
+            <file
+                name="baozou/ada5425f0263b65ffae1c9348a3c5d30.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/ada5425f0263b65ffae1c9348a3c5d30.png" />
+            <file
+                name="baozou/-7_5016817c3f714.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_5016817c3f714.jpg" />
+            <file
+                name="baozou/abefd9e4c03ff38d467b6d771ea2e857.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/abefd9e4c03ff38d467b6d771ea2e857.png" />
+            <file
+                name="baozou/-7_5016819dcc612.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_5016819dcc612.jpg" />
+            <file
+                name="baozou/1070c0f99fa75975e56a99a4f21707f0.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/1070c0f99fa75975e56a99a4f21707f0.png" />
+            <file
+                name="baozou/-47218_505017f5b84d6.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_505017f5b84d6.jpg" />
+            <file
+                name="baozou/d207310836cebda7b967498d30cd9cd1.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/d207310836cebda7b967498d30cd9cd1.png" />
+            <file
+                name="baozou/790acfd25773a45e527a723b2f6a40d4.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/790acfd25773a45e527a723b2f6a40d4.png" />
+            <file
+                name="baozou/-47218_5053040c1ff51.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_5053040c1ff51.gif" />
+            <file
+                name="baozou/9f20039eba5242f1f5df34779199e143.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/9f20039eba5242f1f5df34779199e143.png" />
+            <file
+                name="baozou/7f16fd71d6b86d9a90c0eea23a207420.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/7f16fd71d6b86d9a90c0eea23a207420.png" />
+            <file
+                name="baozou/-7_50165a095609b.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_50165a095609b.jpg" />
+            <file
+                name="baozou/-7_5050972e61c94.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_5050972e61c94.jpg" />
+            <file
+                name="baozou/b66735510ea8c96938ac5d31d4c589fd.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/b66735510ea8c96938ac5d31d4c589fd.png" />
+            <file
+                name="baozou/-7_5016819980fbc.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_5016819980fbc.jpg" />
+            <file
+                name="baozou/bde7b8d04f40b2748137801729660a5e.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/bde7b8d04f40b2748137801729660a5e.png" />
+            <file
+                name="baozou/889bafb318fbe216141eac72e0706f5b.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/889bafb318fbe216141eac72e0706f5b.png" />
+            <file
+                name="baozou/-47218_505017ad66045.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_505017ad66045.jpg" />
+            <file
+                name="baozou/38e2db572feae5b33c20ea6f229c3759.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/38e2db572feae5b33c20ea6f229c3759.png" />
+            <file
+                name="baozou/da6eeba218ce65317a625c60a6314bd2.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/da6eeba218ce65317a625c60a6314bd2.png" />
+            <file
+                name="baozou/-47218_505017fb0e250.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_505017fb0e250.jpg" />
+            <file
+                name="baozou/-7_501659f74f065.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_501659f74f065.jpg" />
+            <file
+                name="baozou/862cbe0df668b5df0d4a08f20960c810.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/862cbe0df668b5df0d4a08f20960c810.gif" />
+            <file
+                name="baozou/f50a6b4a25bcd0550395f4b9fbec7e12.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/f50a6b4a25bcd0550395f4b9fbec7e12.png" />
+            <file
+                name="baozou/-7_501681825a85d.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_501681825a85d.jpg" />
+            <file
+                name="baozou/-7_4fa52f018139f.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52f018139f.gif" />
+            <file
+                name="baozou/6175b8ea9cd71127142824e8f799714b.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/6175b8ea9cd71127142824e8f799714b.png" />
+            <file
+                name="baozou/4f7b4d5981b1f00ec7923b6eba5a985c.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/4f7b4d5981b1f00ec7923b6eba5a985c.png" />
+            <file
+                name="baozou/7a2302f1845a0979df055bdb699cdede.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/7a2302f1845a0979df055bdb699cdede.png" />
+            <file
+                name="baozou/-7_5050974c1df08.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_5050974c1df08.jpg" />
+            <file
+                name="baozou/4e691d95d3d811a85c55d705df8aced0.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/4e691d95d3d811a85c55d705df8aced0.png" />
+            <file
+                name="baozou/-7_50165a0c8f964.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_50165a0c8f964.jpg" />
+            <file
+                name="baozou/2acb155e2a5b9422a94186316b1aef60.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/2acb155e2a5b9422a94186316b1aef60.jpg" />
+            <file
+                name="baozou/-7_4fa52f0788e44.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52f0788e44.gif" />
+            <file
+                name="baozou/-7_501686c890c75.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_501686c890c75.jpg" />
+            <file
+                name="baozou/-7_4ffe8f28503c0.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4ffe8f28503c0.png" />
+            <file
+                name="baozou/-7_4fa52f044c7b1.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52f044c7b1.gif" />
+            <file
+                name="baozou/-7_4fa52eda5044a.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52eda5044a.gif" />
+            <file
+                name="baozou/28c5e844157dcd4c932427f8c9d3f51a.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/28c5e844157dcd4c932427f8c9d3f51a.png" />
+            <file
+                name="baozou/c9963cd620e2ff683c5939c071f2746c.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/c9963cd620e2ff683c5939c071f2746c.png" />
+            <file
+                name="baozou/-7_4fa52ecc3d7ac.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52ecc3d7ac.gif" />
+            <file
+                name="baozou/6cc10a4dba106faa171a36d691dac6bb.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/6cc10a4dba106faa171a36d691dac6bb.gif" />
+            <file
+                name="baozou/-447601_4f2d1e80ab343.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-447601_4f2d1e80ab343.jpg" />
+            <file
+                name="baozou/-7_4fa52eeba4771.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fa52eeba4771.gif" />
+            <file
+                name="baozou/-7_50509743b31a9.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_50509743b31a9.png" />
+            <file
+                name="baozou/-7_5003c666c1113.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_5003c666c1113.png" />
+            <file
+                name="baozou/-7_4fffc468eb93e.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fffc468eb93e.png" />
+            <file
+                name="baozou/-7_501659f095f86.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_501659f095f86.jpg" />
+            <file
+                name="baozou/-7_501681a579a75.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_501681a579a75.jpg" />
+            <file
+                name="baozou/-7_501659fef2d35.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_501659fef2d35.jpg" />
+            <file
+                name="baozou/-47218_505017a6ec30d.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_505017a6ec30d.jpg" />
+            <file
+                name="baozou/ebc20db6eebd5dd7f44106cebd63449f.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/ebc20db6eebd5dd7f44106cebd63449f.png" />
+            <file
+                name="baozou/-7_501681aa5d92a.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_501681aa5d92a.jpg" />
+            <file
+                name="baozou/a275c4400dc24c94c6b252495cfbf5d7.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/a275c4400dc24c94c6b252495cfbf5d7.jpg" />
+            <file
+                name="baozou/-7_50509738ceb3c.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_50509738ceb3c.jpg" />
+            <file
+                name="baozou/6531e88e4f1209a5b404cc0f4507fc37.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/6531e88e4f1209a5b404cc0f4507fc37.jpg" />
+            <file
+                name="baozou/-7_4fffaaa52673e.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fffaaa52673e.png" />
+            <file
+                name="baozou/-7_5016818c54525.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_5016818c54525.jpg" />
+            <file
+                name="baozou/-7_501686d1e6d55.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_501686d1e6d55.jpg" />
+            <file
+                name="baozou/a165e0caf3ec1cccacb6dc3031ac9662.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/a165e0caf3ec1cccacb6dc3031ac9662.png" />
+            <file
+                name="baozou/-7_50167f81bba1c.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_50167f81bba1c.gif" />
+            <file
+                name="baozou/8c57d3de7a471cf98e035476b4685579.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/8c57d3de7a471cf98e035476b4685579.png" />
+            <file
+                name="baozou/-7_50168192b5000.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_50168192b5000.jpg" />
+            <file
+                name="baozou/a107ccf5274bf3c837ffb7909bd0d469.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/a107ccf5274bf3c837ffb7909bd0d469.png" />
+            <file
+                name="baozou/-47218_50515376c354c.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_50515376c354c.jpg" />
+            <file
+                name="baozou/-47218_505017a342b27.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-47218_505017a342b27.jpg" />
+            <file
+                name="baozou/-7_505097122174c.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_505097122174c.png" />
+            <file
+                name="baozou/ffd6126dfa9a5994fef30f83a60c2650.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/ffd6126dfa9a5994fef30f83a60c2650.png" />
+            <file
+                name="baozou/-7_501674e61bdc7.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_501674e61bdc7.png" />
+            <file
+                name="baozou/15ffc0dc16d79e8229c0a7e20f7dc86b.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/15ffc0dc16d79e8229c0a7e20f7dc86b.png" />
+            <file
+                name="baozou/-7_5016ae12ae284.jpg"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_5016ae12ae284.jpg" />
+            <file
+                name="baozou/-7_4fffbdad17999.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/baozou/-7_4fffbdad17999.png" />
+            <file
+                name="a7.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a7.gif" />
+            <file
+                name="luoxiaohei/70e129baaf95e2f56f3976104f893473.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/70e129baaf95e2f56f3976104f893473.gif" />
+            <file
+                name="luoxiaohei/6f7972b1a2452f968f1a6e14aef81248.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/6f7972b1a2452f968f1a6e14aef81248.gif" />
+            <file
+                name="luoxiaohei/54b82214e99cfa3a3da7a66afe864fdf.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/54b82214e99cfa3a3da7a66afe864fdf.gif" />
+            <file
+                name="luoxiaohei/5d8f39679c3e6d295a0305fc23d9af2a.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/5d8f39679c3e6d295a0305fc23d9af2a.gif" />
+            <file
+                name="luoxiaohei/fa8bc2db7c485e1ecaecfa639363e9af.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/fa8bc2db7c485e1ecaecfa639363e9af.gif" />
+            <file
+                name="luoxiaohei/c34f57dc27a585b0c842f788140b85ca.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/c34f57dc27a585b0c842f788140b85ca.gif" />
+            <file
+                name="luoxiaohei/9ea2d7fb2fb9f9f8cb8e110b5b5a0bd8.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/9ea2d7fb2fb9f9f8cb8e110b5b5a0bd8.gif" />
+            <file
+                name="luoxiaohei/343f7b3c71da2975c4582b1e713f75fc.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/343f7b3c71da2975c4582b1e713f75fc.gif" />
+            <file
+                name="luoxiaohei/0ed9b744030c1f2a66b0ba11a1098271.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/0ed9b744030c1f2a66b0ba11a1098271.gif" />
+            <file
+                name="luoxiaohei/768dc8efd0b5e2539f8591ecff8357a9.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/768dc8efd0b5e2539f8591ecff8357a9.gif" />
+            <file
+                name="luoxiaohei/ac1fa35081de0adfabc70789f5fa5103.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/ac1fa35081de0adfabc70789f5fa5103.gif" />
+            <file
+                name="luoxiaohei/fa3ecaa87375e10a09996e663eb9c7c9.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/fa3ecaa87375e10a09996e663eb9c7c9.gif" />
+            <file
+                name="luoxiaohei/64824c081c08d2cdf410a2c91b0ac548.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/64824c081c08d2cdf410a2c91b0ac548.gif" />
+            <file
+                name="luoxiaohei/1ac323e705d6e359066ab2ea8c9dded1.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/1ac323e705d6e359066ab2ea8c9dded1.gif" />
+            <file
+                name="luoxiaohei/cc308c269384b073a91e8e851e9471f9.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/cc308c269384b073a91e8e851e9471f9.gif" />
+            <file
+                name="luoxiaohei/56b3ffe62f4beaa13d41a239d1c8a51f.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/56b3ffe62f4beaa13d41a239d1c8a51f.gif" />
+            <file
+                name="luoxiaohei/62508130547e05e4c322839968dd216e.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/62508130547e05e4c322839968dd216e.gif" />
+            <file
+                name="luoxiaohei/433df28f586354c47395623f5a5a8f5c.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/433df28f586354c47395623f5a5a8f5c.gif" />
+            <file
+                name="luoxiaohei/db828196a219ca5c516bbeafd47117f4.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/db828196a219ca5c516bbeafd47117f4.gif" />
+            <file
+                name="luoxiaohei/560cc871dacea718be53a968fe99e25b.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/560cc871dacea718be53a968fe99e25b.gif" />
+            <file
+                name="luoxiaohei/4fce62ce80196ecd0a2d72ebffba7152.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/4fce62ce80196ecd0a2d72ebffba7152.gif" />
+            <file
+                name="luoxiaohei/d54f27747487bf59649b5da25ce52963.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/d54f27747487bf59649b5da25ce52963.gif" />
+            <file
+                name="luoxiaohei/3acf42b1de0c59cad6f2bc57c5013d2e.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/3acf42b1de0c59cad6f2bc57c5013d2e.gif" />
+            <file
+                name="luoxiaohei/e6be0e1f5d16216ecbaf4af96d61e951.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/e6be0e1f5d16216ecbaf4af96d61e951.gif" />
+            <file
+                name="luoxiaohei/52e06e3401a72311cb40941beeed3590.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/52e06e3401a72311cb40941beeed3590.gif" />
+            <file
+                name="luoxiaohei/65164a8305f446ed5b82e7c43ff43901.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/65164a8305f446ed5b82e7c43ff43901.gif" />
+            <file
+                name="luoxiaohei/4f13fb2e09b9024ee320a3d0fedfad3e.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/4f13fb2e09b9024ee320a3d0fedfad3e.gif" />
+            <file
+                name="luoxiaohei/68d091a8525af89af3792ceffc0c88d7.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/68d091a8525af89af3792ceffc0c88d7.gif" />
+            <file
+                name="luoxiaohei/93799e7cf5b4c32a6186718c17cc6488.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/93799e7cf5b4c32a6186718c17cc6488.gif" />
+            <file
+                name="luoxiaohei/46c6f342a8b051a38ea3bc8ff959e02d.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/46c6f342a8b051a38ea3bc8ff959e02d.gif" />
+            <file
+                name="luoxiaohei/9e21cdefd6b3f92d0b1f4bba3e4cda38.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/9e21cdefd6b3f92d0b1f4bba3e4cda38.gif" />
+            <file
+                name="luoxiaohei/33a65a5d1ea1aa9cc77db3d9f94bc9d6.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/33a65a5d1ea1aa9cc77db3d9f94bc9d6.gif" />
+            <file
+                name="luoxiaohei/d29ac462d5ccbfdd286f6eb90bea71cf.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/d29ac462d5ccbfdd286f6eb90bea71cf.gif" />
+            <file
+                name="luoxiaohei/da77ab1bc23dc5718f286006b2c4d873.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/da77ab1bc23dc5718f286006b2c4d873.gif" />
+            <file
+                name="luoxiaohei/289fe14a25dff087f17ddddedcbad510.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/289fe14a25dff087f17ddddedcbad510.gif" />
+            <file
+                name="luoxiaohei/5c0de79888729eff15d9e987fbba4c25.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/5c0de79888729eff15d9e987fbba4c25.gif" />
+            <file
+                name="luoxiaohei/2f298fd226b5c1b9c8cd1d7976b725bc.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/2f298fd226b5c1b9c8cd1d7976b725bc.gif" />
+            <file
+                name="luoxiaohei/89450c4f7eb2dfe3ea3832be12d9a1fd.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/luoxiaohei/89450c4f7eb2dfe3ea3832be12d9a1fd.gif" />
+            <file
+                name="a42.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a42.gif" />
+            <file
+                name="a2.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a2.gif" />
+            <file
+                name="a5.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a5.gif" />
+            <file
+                name="ic_offline_image.png"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ic_offline_image.png" />
+            <file
+                name="a43.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a43.gif" />
+            <file
+                name="ali/-1324875_50828128202a1.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50828128202a1.gif" />
+            <file
+                name="ali/-1324875_508281a6187f5.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281a6187f5.gif" />
+            <file
+                name="ali/-1324875_508282f767d2d.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508282f767d2d.gif" />
+            <file
+                name="ali/-1324875_5082862e3d030.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082862e3d030.gif" />
+            <file
+                name="ali/-1324875_508281a2b4e00.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281a2b4e00.gif" />
+            <file
+                name="ali/-1324875_508283f8a086f.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283f8a086f.gif" />
+            <file
+                name="ali/-1324875_50828156044a9.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50828156044a9.gif" />
+            <file
+                name="ali/-1324875_508283b30bb41.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283b30bb41.gif" />
+            <file
+                name="ali/-1324875_508281640d535.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281640d535.gif" />
+            <file
+                name="ali/-1324875_5082840555c68.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082840555c68.gif" />
+            <file
+                name="ali/-1324875_508286a20707b.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508286a20707b.gif" />
+            <file
+                name="ali/-1324875_508281724dbf0.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281724dbf0.gif" />
+            <file
+                name="ali/-1324875_50828159504bc.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50828159504bc.gif" />
+            <file
+                name="ali/-1324875_508285ba3dc85.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508285ba3dc85.gif" />
+            <file
+                name="ali/-1324875_508285beb7941.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508285beb7941.gif" />
+            <file
+                name="ali/-1324875_50c155b5e8605.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50c155b5e8605.gif" />
+            <file
+                name="ali/-1324875_5082860e4b7d3.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082860e4b7d3.gif" />
+            <file
+                name="ali/-1324875_508283941d626.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283941d626.gif" />
+            <file
+                name="ali/-1324875_508285abb5b70.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508285abb5b70.gif" />
+            <file
+                name="ali/-1324875_508283139d9cd.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283139d9cd.gif" />
+            <file
+                name="ali/-1324875_508283672714d.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283672714d.gif" />
+            <file
+                name="ali/-1324875_50828616bc53d.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50828616bc53d.gif" />
+            <file
+                name="ali/-1324875_508281f265d94.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281f265d94.gif" />
+            <file
+                name="ali/-1324875_508285b76bcbc.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508285b76bcbc.gif" />
+            <file
+                name="ali/-1324875_508281f515918.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281f515918.gif" />
+            <file
+                name="ali/-1324875_50828373b260c.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50828373b260c.gif" />
+            <file
+                name="ali/-1324875_5082835766d19.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082835766d19.gif" />
+            <file
+                name="ali/-1324875_5082866c3596f.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082866c3596f.gif" />
+            <file
+                name="ali/-1324875_508283f043748.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283f043748.gif" />
+            <file
+                name="ali/-1324875_508281faf3aae.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281faf3aae.gif" />
+            <file
+                name="ali/-1324875_50c155c106357.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50c155c106357.gif" />
+            <file
+                name="ali/-1324875_5082830a4b627.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082830a4b627.gif" />
+            <file
+                name="ali/-1324875_5082840d6f618.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082840d6f618.gif" />
+            <file
+                name="ali/-1324875_508281a9d3dc6.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281a9d3dc6.gif" />
+            <file
+                name="ali/-1324875_5082868c8aa1e.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082868c8aa1e.gif" />
+            <file
+                name="ali/-1324875_508286b0df0d3.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508286b0df0d3.gif" />
+            <file
+                name="ali/-1324875_5082830d15f9d.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082830d15f9d.gif" />
+            <file
+                name="ali/-1324875_5082810882c15.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082810882c15.gif" />
+            <file
+                name="ali/-1324875_50828397760d2.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50828397760d2.gif" />
+            <file
+                name="ali/-1324875_50828120c1b43.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50828120c1b43.gif" />
+            <file
+                name="ali/-1324875_5082835af2b67.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082835af2b67.gif" />
+            <file
+                name="ali/-1324875_5082812ee6277.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082812ee6277.gif" />
+            <file
+                name="ali/-1324875_5082816699b50.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082816699b50.gif" />
+            <file
+                name="ali/-1324875_508281248e6fb.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281248e6fb.gif" />
+            <file
+                name="ali/-1324875_508281e3c61c9.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281e3c61c9.gif" />
+            <file
+                name="ali/-1324875_5082816b9263a.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082816b9263a.gif" />
+            <file
+                name="ali/-1324875_508282f47ec7f.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508282f47ec7f.gif" />
+            <file
+                name="ali/-1324875_5082862651d34.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082862651d34.gif" />
+            <file
+                name="ali/-1324875_5082840ac0f96.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082840ac0f96.gif" />
+            <file
+                name="ali/-1324875_508283a44a3b7.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283a44a3b7.gif" />
+            <file
+                name="ali/-1324875_508286113d515.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508286113d515.gif" />
+            <file
+                name="ali/-1324875_508286339e6db.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508286339e6db.gif" />
+            <file
+                name="ali/-1324875_508283ff1ebb3.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283ff1ebb3.gif" />
+            <file
+                name="ali/-1324875_508285b2e9acb.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508285b2e9acb.gif" />
+            <file
+                name="ali/-1324875_50c155bc49e23.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50c155bc49e23.gif" />
+            <file
+                name="ali/-1324875_508281b351426.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281b351426.gif" />
+            <file
+                name="ali/-1324875_508285a63c01e.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508285a63c01e.gif" />
+            <file
+                name="ali/-1324875_508283532eac8.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283532eac8.gif" />
+            <file
+                name="ali/-1324875_508283abe0dad.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283abe0dad.gif" />
+            <file
+                name="ali/-1324875_508286a80ab92.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508286a80ab92.gif" />
+            <file
+                name="ali/-1324875_5082867e9a86b.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082867e9a86b.gif" />
+            <file
+                name="ali/-1324875_508281f8649ad.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281f8649ad.gif" />
+            <file
+                name="ali/-1324875_508283af77d79.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283af77d79.gif" />
+            <file
+                name="ali/-1324875_508283a00c452.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283a00c452.gif" />
+            <file
+                name="ali/-1324875_508285a8c03af.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508285a8c03af.gif" />
+            <file
+                name="ali/-1324875_50828685b6582.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50828685b6582.gif" />
+            <file
+                name="ali/-1324875_50c155ad639ac.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50c155ad639ac.gif" />
+            <file
+                name="ali/-1324875_5082836bd2372.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082836bd2372.gif" />
+            <file
+                name="ali/-1324875_5082859e252f9.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082859e252f9.gif" />
+            <file
+                name="ali/-1324875_508281b6856a0.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281b6856a0.gif" />
+            <file
+                name="ali/-1324875_5082810d43bac.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082810d43bac.gif" />
+            <file
+                name="ali/-1324875_50828695cbd17.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50828695cbd17.gif" />
+            <file
+                name="ali/-1324875_508281e9e234f.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281e9e234f.gif" />
+            <file
+                name="ali/-1324875_5082811ad196c.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082811ad196c.gif" />
+            <file
+                name="ali/-1324875_508283a796e41.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283a796e41.gif" />
+            <file
+                name="ali/-1324875_508283622906c.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283622906c.gif" />
+            <file
+                name="ali/-1324875_5082839c7b521.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082839c7b521.gif" />
+            <file
+                name="ali/-1324875_5082840811678.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082840811678.gif" />
+            <file
+                name="ali/-1324875_5082819f84e6a.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082819f84e6a.gif" />
+            <file
+                name="ali/-1324875_50828300d278f.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50828300d278f.gif" />
+            <file
+                name="ali/-1324875_5082868fee3dc.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082868fee3dc.gif" />
+            <file
+                name="ali/-1324875_5082814b188f0.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082814b188f0.gif" />
+            <file
+                name="ali/-1324875_508283fc9988e.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283fc9988e.gif" />
+            <file
+                name="ali/-1324875_5082835e79d8d.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082835e79d8d.gif" />
+            <file
+                name="ali/-1324875_50828390a1f80.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50828390a1f80.gif" />
+            <file
+                name="ali/-1324875_508281ef70875.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281ef70875.gif" />
+            <file
+                name="ali/-1324875_508285a338c42.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508285a338c42.gif" />
+            <file
+                name="ali/-1324875_508281ad097e0.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281ad097e0.gif" />
+            <file
+                name="ali/-1324875_508281606385b.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281606385b.gif" />
+            <file
+                name="ali/-1324875_508282fdaa34c.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508282fdaa34c.gif" />
+            <file
+                name="ali/-1324875_5082815d2e110.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082815d2e110.gif" />
+            <file
+                name="ali/-1324875_50828306981aa.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50828306981aa.gif" />
+            <file
+                name="ali/-1324875_508281e6d31ad.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281e6d31ad.gif" />
+            <file
+                name="ali/-1324875_508281ec82ed2.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281ec82ed2.gif" />
+            <file
+                name="ali/-1324875_5082861b2bcfb.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082861b2bcfb.gif" />
+            <file
+                name="ali/-1324875_5082819c27c6a.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082819c27c6a.gif" />
+            <file
+                name="ali/-1324875_508281155cc7a.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281155cc7a.gif" />
+            <file
+                name="ali/-1324875_508286824723d.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508286824723d.gif" />
+            <file
+                name="ali/-1324875_508284021c88d.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508284021c88d.gif" />
+            <file
+                name="ali/-1324875_5082816f07afa.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082816f07afa.gif" />
+            <file
+                name="ali/-1324875_5082836f52130.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082836f52130.gif" />
+            <file
+                name="ali/-1324875_5082812b869df.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082812b869df.gif" />
+            <file
+                name="ali/-1324875_508283767180e.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283767180e.gif" />
+            <file
+                name="ali/-1324875_5082862bc6b04.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082862bc6b04.gif" />
+            <file
+                name="ali/-1324875_50828110e8139.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_50828110e8139.gif" />
+            <file
+                name="ali/-1324875_508281b077c7b.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281b077c7b.gif" />
+            <file
+                name="ali/-1324875_508286219a587.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508286219a587.gif" />
+            <file
+                name="ali/-1324875_5082831790c11.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_5082831790c11.gif" />
+            <file
+                name="ali/-1324875_508283f57ebc3.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508283f57ebc3.gif" />
+            <file
+                name="ali/-1324875_508285c237630.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508285c237630.gif" />
+            <file
+                name="ali/-1324875_508286897bbf6.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508286897bbf6.gif" />
+            <file
+                name="ali/-1324875_508286792f655.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508286792f655.gif" />
+            <file
+                name="ali/-1324875_508281ba0ef70.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281ba0ef70.gif" />
+            <file
+                name="ali/-1324875_508281fe06724.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508281fe06724.gif" />
+            <file
+                name="ali/-1324875_508286142d529.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508286142d529.gif" />
+            <file
+                name="ali/-1324875_508282fa22bf0.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/ali/-1324875_508282fa22bf0.gif" />
+            <file
+                name="a3.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a3.gif" />
+            <file
+                name="bierde/-47218_5045bdb19a376.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bdb19a376.gif" />
+            <file
+                name="bierde/-47218_5045bd9d49867.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bd9d49867.gif" />
+            <file
+                name="bierde/-47218_5045beea312de.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045beea312de.gif" />
+            <file
+                name="bierde/-47218_5045bff13a601.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bff13a601.gif" />
+            <file
+                name="bierde/89d494e527d5b11a712d40fccbab5fee.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/89d494e527d5b11a712d40fccbab5fee.gif" />
+            <file
+                name="bierde/-47218_5045c007e9a2a.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045c007e9a2a.gif" />
+            <file
+                name="bierde/-47218_5045bd823ee71.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bd823ee71.gif" />
+            <file
+                name="bierde/-47218_5045bef2b42a2.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bef2b42a2.gif" />
+            <file
+                name="bierde/-47218_5045bda5828bf.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bda5828bf.gif" />
+            <file
+                name="bierde/-47218_5045bd8e94feb.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bd8e94feb.gif" />
+            <file
+                name="bierde/-47218_5045bfe1e7644.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bfe1e7644.gif" />
+            <file
+                name="bierde/-47218_5045bef857bc0.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bef857bc0.gif" />
+            <file
+                name="bierde/-47218_5045bf7963e3d.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bf7963e3d.gif" />
+            <file
+                name="bierde/-47218_5045bd94b6eba.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bd94b6eba.gif" />
+            <file
+                name="bierde/-47218_5045c01072fb7.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045c01072fb7.gif" />
+            <file
+                name="bierde/-47218_5045be7051800.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045be7051800.gif" />
+            <file
+                name="bierde/-47218_5045c00be7aee.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045c00be7aee.gif" />
+            <file
+                name="bierde/-47218_5045bf6a0a114.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bf6a0a114.gif" />
+            <file
+                name="bierde/-47218_5045c0026d5d6.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045c0026d5d6.gif" />
+            <file
+                name="bierde/-47218_5045bfe95474a.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bfe95474a.gif" />
+            <file
+                name="bierde/-7_50a3a5077863f.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-7_50a3a5077863f.gif" />
+            <file
+                name="bierde/-47218_5045be9e16a62.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045be9e16a62.gif" />
+            <file
+                name="bierde/-47218_5045bf748eded.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bf748eded.gif" />
+            <file
+                name="bierde/-47218_5045bf6234da1.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bf6234da1.gif" />
+            <file
+                name="bierde/-47218_5045bf6e41fe2.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/bierde/-47218_5045bf6e41fe2.gif" />
+            <file
+                name="a24.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a24.gif" />
+            <file
+                name="a29.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a29.gif" />
+            <file
+                name="a6.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a6.gif" />
+            <file
+                name="a28.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a28.gif" />
+            <file
+                name="a38.gif"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/a38.gif" />
+            <file
+                name="forums.json"
+                path="/home/kevliu/mip/workspace/ngaclient/app/src/main/assets/forums.json" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/kevliu/mip/workspace/ngaclient/app/src/debug/assets" />
+    </dataSet>
+
+</merger>

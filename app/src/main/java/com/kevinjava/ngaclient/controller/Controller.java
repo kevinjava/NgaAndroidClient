@@ -6,7 +6,7 @@ import com.kevinjava.ngaclient.factory.FragementFactoryImpl;
 import com.kevinjava.ngaclient.factory.FragmentFactoryIF;
 import com.kevinjava.ngaclient.listener.ViewControllIF;
 import com.kevinjava.ngaclient.ui.BaseActivity;
-import com.kevinjava.ngaclient.util.URLCreator;
+import com.github.kevinjava.ngaclient.util.URLCreator;
 
 public class Controller implements ViewControllIF {
 	BaseActivity baseActivity;
@@ -22,10 +22,10 @@ public class Controller implements ViewControllIF {
 		leftViewControlIF = new SlideLeftViewImpl(act, fragmentFactory);
 		rightViewControlIF = new SlideRightViewImpl(act, fragmentFactory);
 		mainViewControlIF = new MainViewControlImpl(act, fragmentFactory);
-		forumDataModel = new ForumDataModel();
-		forumDataModel.add(NetRequestType.ForumData, mainViewControlIF);
-		forumDataModel.add(NetRequestType.RefrushForumData, mainViewControlIF);
-		forumDataModel.add(NetRequestType.OnLoadMore, mainViewControlIF);
+//		forumDataModel = new ForumDataModel();
+//		forumDataModel.add(NetRequestType.ForumData, mainViewControlIF);
+//		forumDataModel.add(NetRequestType.RefrushForumData, mainViewControlIF);
+//		forumDataModel.add(NetRequestType.OnLoadMore, mainViewControlIF);
 	}
 
 	public void createView(Bundle savedInstanceState) {

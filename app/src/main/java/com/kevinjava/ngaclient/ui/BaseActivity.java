@@ -4,9 +4,9 @@ import android.app.Fragment;
 import android.os.Bundle;
 import android.view.Menu;
 
+import com.github.kevinjava.ngaclient.R;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
-import com.kevinjava.ngaclient.R;
 
 public class BaseActivity extends SlidingFragmentActivity {
 

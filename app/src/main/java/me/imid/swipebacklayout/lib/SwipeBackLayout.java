@@ -17,7 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.kevinjava.ngaclient.R;
+import com.github.kevinjava.ngaclient.R;
 
 public class SwipeBackLayout extends FrameLayout {
     /**

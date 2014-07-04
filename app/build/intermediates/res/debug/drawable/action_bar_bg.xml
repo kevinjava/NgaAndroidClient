@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/actionbar_bg"/>
+</selector>
+<!-- From: file:/home/kevliu/mip/workspace/ngaclient/app/src/main/res/drawable/action_bar_bg.xml -->

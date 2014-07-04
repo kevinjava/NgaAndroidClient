@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.Scroller;
 import android.widget.TextView;
 
-import com.kevinjava.ngaclient.R;
+import com.github.kevinjava.ngaclient.R;
 
 public class AnimationTextView extends LinearLayout {
 	Scroller mScroller;

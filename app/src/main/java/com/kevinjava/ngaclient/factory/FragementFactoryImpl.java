@@ -1,7 +1,7 @@
 package com.kevinjava.ngaclient.factory;
 
 import com.kevinjava.ngaclient.listener.ViewControllIF;
-import com.kevinjava.ngaclient.model.ThreadData;
+import com.github.kevinjava.ngaclient.model.ThreadData;
 import com.kevinjava.ngaclient.ui.BaseActivity;
 import com.kevinjava.ngaclient.ui.MainForumFragement;
 import com.kevinjava.ngaclient.ui.NgaBaseFragment;

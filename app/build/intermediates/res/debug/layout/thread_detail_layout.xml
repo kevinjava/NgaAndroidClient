@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/default_user_avatar" />
+
+    <TextView
+        android:id="@+id/lou"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_icon"
+        android:text="Name"
+        android:textSize="12sp"
+        android:layout_marginTop="3dp"
+        android:gravity="center"/>
+
+    <RelativeLayout
+        android:id="@+id/left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/user_icon"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/user_icon"
+        >
+
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Name"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/post_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Name"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/webview_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/left_layout"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/user_icon"
+        android:text="" />
+</RelativeLayout><!-- From: file:/home/kevliu/mip/workspace/ngaclient/app/src/main/res/layout/thread_detail_layout.xml -->

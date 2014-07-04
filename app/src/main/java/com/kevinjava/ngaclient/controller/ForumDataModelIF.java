@@ -1,8 +1,8 @@
 package com.kevinjava.ngaclient.controller;
 
-import com.kevinjava.ngaclient.listener.Observable;
-import com.kevinjava.ngaclient.model.HttpRequestBean;
-import com.kevinjava.ngaclient.model.ThreadData;
+import com.github.kevinjava.ngaclient.listener.Observable;
+import com.github.kevinjava.ngaclient.model.HttpRequestBean;
+import com.github.kevinjava.ngaclient.model.ThreadData;
 
 
 public interface ForumDataModelIF extends Observable{

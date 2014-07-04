@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="md__transparent">#00000000</color>
 	<color name="trans_black">#b2F7BE81</color>
     <!-- template -->
 	<color name="ToastGreen">#b2276b23</color>
@@ -300,7 +301,8 @@
     <!-- 海军色 -->
     <color name="black">#000000</color>
     <!-- 黑色 -->
-    <color name="custonBlack">#585858</color>
+    <color name="list_bg">#FFf2f2f2</color>
+    <color name="custonBlack">#00585858</color>
     <color name="bodyBlack">#2e2e2e</color>
     <color name="dark_gray">#1E2129</color>
     <color name="light_orange">#FF7A0F</color>
